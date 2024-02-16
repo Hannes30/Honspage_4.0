@@ -1,4 +1,5 @@
 <script>
-  import Nav from "$lib/components/nav.svelte";
+  import Nav from "$lib/components/Nav.svelte";
 
 </script>
+<Nav active=3></Nav>
