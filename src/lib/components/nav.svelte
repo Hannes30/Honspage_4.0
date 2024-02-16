@@ -25,11 +25,12 @@
         <NavComponent href="/projects" active={active == 2}> Projekte </NavComponent>
         <NavComponent href="/services" active={active == 3}> Leistungen </NavComponent>
     </div>
-    <a class=" bg-primary-400  rounded-md text-secondary px-4 py-1 font-semibold" href="contact">Kontakt</a>
+    <a class=" bg-primary-400  rounded-md text-secondary px-4 py-1 font-semibold relative top-0 hover:-top-1 duration-300" href="contact">Kontakt</a>
     
 </nav> 
 <style>
-  button  {
+  a  {
     text-shadow: 1px 3px #EBFFF8;
   }
+
 </style>

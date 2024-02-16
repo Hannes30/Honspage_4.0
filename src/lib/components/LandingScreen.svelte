@@ -3,7 +3,7 @@
     <div class=" lg:pb-40">
         <h1>Hannes Scheibelauer</h1>
         <span>Der kreative Webentwickler 
-        für <span class=" text-black bg-primary-200 px-2 rounded-md backgroundFadeIn">deine</span> digitale Erfolgsstory!</span>
+        für <span class=" text-secondary bg-primary-200 px-2 rounded-md backgroundFadeIn">deine</span> digitale Erfolgsstory!</span>
     </div>
     <div class="">
         <img src="../src/lib/img/HanneswithDotsLight_medium.png" alt="">
