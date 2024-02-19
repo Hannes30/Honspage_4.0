@@ -2,7 +2,7 @@
     import "../style.css";
     import CookieBanner from "$lib/components/CookieBanner.svelte";
   import { onMount } from "svelte";
-  let showBanner = false;
+  /*let showBanner = false;
   onMount(() => {
     console.log(localStorage.getItem("Cookies") ? "exists":"doesn't exist");
     if(!localStorage.getItem("Cookies"))
@@ -15,14 +15,14 @@
   function handleClick(){
         localStorage.setItem("Cookies","set")
         showBanner = false;
-    }
+    }*/
   </script>
   
   <div class="body bg-black"> 
-    {#if showBanner}
+    <!--{#if showBanner}
      <CookieBanner {handleClick}/> 
-     {/if}
-     <div class={showBanner ? "opacity-0" : ""}> <slot/></div>
+     {/if}-->
+     <div> <slot/></div>
     
     </div>
   <style>
