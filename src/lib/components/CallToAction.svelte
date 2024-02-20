@@ -1,5 +1,13 @@
 <script>
-  export let openContactModal;
+ import showModalStore from '$lib/store/modalStore';
+
+  function openContactModal() {
+    showModalStore.set(true);
+    document.body.style.overflow = "hidden";
+    // darken site if needed
+  }
+
+
 
 </script>
 <div class="p-10 pt-20 flex flex-wrap justify-center">

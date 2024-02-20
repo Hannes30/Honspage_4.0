@@ -1,30 +1,28 @@
 <script>
     import "../style.css";
-    import CookieBanner from "$lib/components/CookieBanner.svelte";
-  import { onMount } from "svelte";
-  /*let showBanner = false;
-  onMount(() => {
-    console.log(localStorage.getItem("Cookies") ? "exists":"doesn't exist");
-    if(!localStorage.getItem("Cookies"))
-    {
-      setTimeout(() => {
-      showBanner = true;
-    }, 100);
-    }
-  });
-  function handleClick(){
-        localStorage.setItem("Cookies","set")
-        showBanner = false;
-    }*/
+    import logo from "$lib/img/Logo_without_text.png"
+    import ContactForm from "../lib/components/ContactForm.svelte";
+    let showModal = false;
+
+function openContactModal(){
+  showModal = true;
+  document.body.style.overflow = "hidden";
+  //darken site
+}
+function closeContactModal(){
+  showModal = false;
+  document.body.style.overflow = "auto";
+}
   </script>
-  
+  <svelte:head>
+    <link rel="icon" type="image/x-icon" href={logo}>
+  </svelte:head>
   <div class="body bg-black"> 
-    <!--{#if showBanner}
-     <CookieBanner {handleClick}/> 
-     {/if}-->
+    {#if showModal}
+<ContactForm {closeContactModal} />
+{/if}
      <div> <slot/></div>
-    
-    </div>
+  </div>
   <style>
     .body{
       min-height: 100vh;

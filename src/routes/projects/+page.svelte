@@ -3,6 +3,6 @@
 
 </script>
 <svelte:head>
-	<title>Projekte</title>
+	<title>Projekte - Hannes Scheibelauer</title>
 </svelte:head>
 <Nav active=2></Nav>

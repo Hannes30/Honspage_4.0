@@ -3,6 +3,6 @@
 
 </script>
 <svelte:head>
-	<title>Impressum</title>
+	<title>Impressum - Hannes Scheibelauer</title>
 </svelte:head>
 <Nav active=3></Nav>

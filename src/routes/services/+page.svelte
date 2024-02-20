@@ -3,6 +3,6 @@
 
 </script>
 <svelte:head>
-	<title>Leistungen</title>
+	<title>Leistungen - Hannes Scheibelauer</title>
 </svelte:head>
 <Nav active=3></Nav>
