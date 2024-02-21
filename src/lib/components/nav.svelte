@@ -64,5 +64,4 @@
   </div>
   
   <button class="bg-primary-400 rounded-md text-secondary px-4 py-1 font-semibold relative top-0 hover:-top-0.5 duration-300" on:click={openContactModal}>Kontakt</button>
-  <button class="bg-primary-400 rounded-md text-secondary px-4 py-1 font-semibold relative top-0 hover:-top-0.5 duration-300" on:click={openContactModal}>Kontakt</button>
 </nav>

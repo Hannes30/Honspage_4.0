@@ -1,4 +1,5 @@
 More Motion on the website
+darken background when contact modal ist opended
 Responsive Desgin
 Project Page
 Services Page

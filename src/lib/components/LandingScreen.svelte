@@ -19,6 +19,6 @@
 }
 .backgroundFadeIn{
     animation-name: background ;
-    animation-duration: 3s;
+    animation-duration: 1s;
 }
 </style>
