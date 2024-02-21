@@ -3,7 +3,7 @@
   
 </script>
 <div class="m-20 -mt-20">
-    <div class="flex flex-nowrap justify-around  text-center w-full font-bold text-5xl">
+    <div class="flex flex-wrap justify-around text-center w-full font-bold text-5xl">
         <Blob number="2" description="Jahre Erfahrung"
         id1="blob1" id2="blob2" duration={5000} delay={200} 
         path2="M34,-61.8C44.5,-52.8,53.7,-44.6,62.4,-34.4C71.1,-24.2,79.3,-12.1,79.6,0.1C79.9,12.4,72.2,24.8,65.7,38.9C59.3,53.1,54.1,68.9,43.4,78.6C32.6,88.4,16.3,92.1,0.7,90.9C-15,89.7,-29.9,83.8,-41.3,74.4C-52.7,65,-60.5,52.2,-64.7,39.2C-68.8,26.3,-69.4,13.1,-72.4,-1.7C-75.3,-16.5,-80.6,-33.1,-75.6,-44.6C-70.6,-56.1,-55.3,-62.6,-40.9,-69.4C-26.6,-76.2,-13.3,-83.2,-0.8,-81.8C11.8,-80.5,23.5,-70.8,34,-61.8Z" 

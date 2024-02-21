@@ -2,6 +2,7 @@
     import "../style.css";
     import logo from "$lib/img/Logo_without_text.png"
     import ContactForm from "../lib/components/ContactForm.svelte";
+    import Footer from "$lib/components/Footer.svelte";
     let showModal = false;
 
 function openContactModal(){
@@ -22,7 +23,9 @@ function closeContactModal(){
 <ContactForm {closeContactModal} />
 {/if}
      <div> <slot/></div>
+     <Footer></Footer>
   </div>
+
   <style>
     .body{
       min-height: 100vh;

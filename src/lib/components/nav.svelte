@@ -29,28 +29,20 @@
         }
       });
     }
-
     window.addEventListener('scroll', handleScroll);
-
     return () => {
       window.removeEventListener('scroll', handleScroll);
-
-      // Unsubscribe from the store when the component is destroyed
       if (unsubscribe) {
         unsubscribe();
       }
     };
   });
-
   function handleScroll() {
     isNavbarAtTop = window.scrollY === 0;
   }
-
   function openContactModal() {
     showModalStore.set(true);
-    // The subscribe callback will handle necessary actions when modal is shown
   }
-
   function closeContactModal() {
     showModalStore.set(false);
   }

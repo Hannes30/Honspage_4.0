@@ -32,7 +32,7 @@
   });
 </script>
 
-<div class="relative w-1/3">
+<div class="relative w-1/3 min-w-80 max-w-96">
   <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="w-full absolute z-10">
 
     <g>
@@ -53,8 +53,8 @@
   </svg>
 
   <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 text-secondary">
-    <div class="lg:text-5xl  xl:text-6xl  sm:text-3xl text-xl">{number}</div>
-    <div class="lg:text-3xl  xl:text-4xl  sm:text-xl text-lg"> {description}</div>
+    <div class="lg:text-5xl  xl:text-6xl   text-4xl">{number}</div>
+    <div class="lg:text-3xl  xl:text-4xl   text-xl font-medium"> {description}</div>
   </div>
 
 </div>
