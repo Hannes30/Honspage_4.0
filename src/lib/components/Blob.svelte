@@ -53,8 +53,8 @@
   </svg>
 
   <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 text-secondary">
-    <div class="lg:text-5xl  xl:text-6xl   text-4xl">{number}</div>
-    <div class="lg:text-3xl  xl:text-4xl   text-xl font-medium"> {description}</div>
+    <div class="lg:text-5xl  xl:text-6xl   text-5xl">{number}</div>
+    <div class="lg:text-3xl  xl:text-4xl   text-2xl font-medium"> {description}</div>
   </div>
 
 </div>

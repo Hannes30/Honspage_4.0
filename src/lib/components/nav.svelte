@@ -54,7 +54,7 @@
 
 <nav class={"flex justify-around items-center mr-4 fixed w-full z-40 p-4 rounded-md bg-opacity-50 duration-500" + (isNavbarAtTop ? "" : " bg-secondary")}>
   <div class="bg-stone-500 text-3xl font-normal flex flex-nowrap items-center justify-around">
-    <span class="ml-4 font-bold">Hannes Scheibelauer</span>
+    <a href="./"><span class="ml-4 font-bold sm:block hidden">Hannes Scheibelauer</span></a>
   </div>
 
   <div class="w-1/3 flex justify-around">
@@ -63,5 +63,6 @@
     <NavComponent href="/services" active={active == 3}> Leistungen </NavComponent>
   </div>
   
-  <button class="bg-primary-400 rounded-md text-secondary px-4 py-1 font-semibold relative top-0 hover:-top-1 duration-300" on:click={openContactModal}>Kontakt</button>
+  <button class="bg-primary-400 rounded-md text-secondary px-4 py-1 font-semibold relative top-0 hover:-top-0.5 duration-300" on:click={openContactModal}>Kontakt</button>
+  <button class="bg-primary-400 rounded-md text-secondary px-4 py-1 font-semibold relative top-0 hover:-top-0.5 duration-300" on:click={openContactModal}>Kontakt</button>
 </nav>

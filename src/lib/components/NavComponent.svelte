@@ -2,6 +2,6 @@
   export let href;
   export let active;
 </script>
-<a class={"px-4 py-1  hover:text-secondary hover:bg-primary-200 rounded-md duration-500 font-medium" + (active ? " bg-primary-200 text-secondary": "")}  {href}>
+<a class={"px-4 py-1 mr-2  hover:text-secondary hover:bg-primary-200 rounded-md duration-500 font-medium" + (active ? " bg-primary-200 text-secondary": "")}  {href}>
    <slot />
 </a>

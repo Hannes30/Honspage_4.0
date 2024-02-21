@@ -1,12 +1,15 @@
-<script></script>
+<script>
+    import HanneswithDotsLight_medium from "$lib/img/HanneswithDotsLight_medium.png"
+
+</script>
 <div class="flex flex-wrap justify-around items-center ml-16 lg:flex-nowrap pt-20">
-    <div class=" lg:pb-40">
+    <div class="lg:pb-40">
         <h1>Hannes Scheibelauer</h1>
         <span>Der kreative Webentwickler 
         für <span class=" text-secondary bg-primary-200 px-2 rounded-md backgroundFadeIn">deine</span> digitale Erfolgsstory!</span>
     </div>
     <div class="">
-        <img src="../src/lib/img/HanneswithDotsLight_medium.png" alt="">
+        <img src={HanneswithDotsLight_medium} alt="Hannes Scheibelauer with Web Icons">
      </div>
 </div>
 <style>
