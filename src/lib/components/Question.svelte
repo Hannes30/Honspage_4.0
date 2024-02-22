@@ -3,11 +3,11 @@
     export let QuestionAnswer;
     let AnswerToggler = false;
 </script>
-<div class="w-full flex justify-center flex-nowrap">
+<div class="w-full flex justify-center flex-nowrap mx-4">
     <div class="lg:w-1/2 pb-5">
-        <button class="border-t pt-7 text-4xl font-thin border-primary-300 flex items-center w-full" on:click={()=>AnswerToggler = !AnswerToggler}>
+        <button class="border-t pt-7 text-4xl font-thin border-primary-300 flex items-center w-full hover:animate-pulse" on:click={()=>AnswerToggler = !AnswerToggler}>
             
-        <div class="">
+        <div class=" text-start w-5/6">
             {QuestionText}
             
         </div>
@@ -19,7 +19,7 @@
               </svg>
         </div>
         </button>
-        <div class={"text-2xl font-light text-gray-300 max-h-0 overflow-hidden transition dropwdown " + (AnswerToggler ? "max-h-full " : "")}>
+        <div class={"text-2xl font-light text-gray-300 max-h-0 overflow-hidden transition dropwdown " + (AnswerToggler ? "max-h-full mt-5" : "")}>
             {QuestionAnswer}
         </div>
         

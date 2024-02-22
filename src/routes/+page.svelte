@@ -15,7 +15,9 @@
 
 <Nav active=1></Nav>
 <LandingScreen />
-<Waves headingText="Ich bin"  headingTextHighlighted="Hannes">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum</Waves>
+<Waves headingText="Ich bin"  headingTextHighlighted="Hannes">
+  <p>Ich besuche die IT-HTL YBBS als Schüler, habe jedoch früh erkannt, dass mir Webdesign mehr Freude bereitet als andere Fachbereiche. Seit dem Jahr 2022 gestalte ich Websites für verschiedene Unternehmen. Anfang 2024 habe ich schließlich mein eigenes Unternehmen gegründet.</p><br/><p> In meiner Arbeitsweise steht die Zusammenarbeit im Vordergrund – ich arbeite nicht nur für meine Kunden, sondern gemeinsam mit ihnen. Jedes Design stimme ich persönlich mit meinen Kunden ab, um sicherzustellen, dass die Website erst dann finalisiert wird, wenn sie zu 100 % ihren Anforderungen entspricht.</p>
+</Waves>
 <Blobs></Blobs>
 <CallToAction></CallToAction>
 <Questions></Questions>
