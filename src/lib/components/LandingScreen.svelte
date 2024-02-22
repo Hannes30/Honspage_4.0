@@ -21,4 +21,5 @@
     animation-name: background ;
     animation-duration: 1s;
 }
+
 </style>

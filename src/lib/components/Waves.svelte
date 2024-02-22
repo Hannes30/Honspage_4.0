@@ -7,7 +7,7 @@
         <h2 class="text-3xl lg:text-5xl mt-8 lg:mt-0">
             {headingText} <span class=" font-bold text-3xl lg:text-5xl text-secondary">  {headingTextHighlighted}  </span>
         </h2>
-        <div class=" lg:text-2xl text-l lg:mt-16 mt-4">
+        <div class="lg:text-2xl text-lg lg:mt-16 mt-4">
             <slot />
         </div>
     </article>
@@ -20,4 +20,5 @@
     background-size: 200% 100%;
     background-position: 70%;
 }
+
 </style>
