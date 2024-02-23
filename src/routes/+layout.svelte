@@ -1,20 +1,32 @@
 <script>
-    import "../style.css";
-    import logo from "$lib/img/Logo_without_text.png"
-    import ContactForm from "../lib/components/ContactForm.svelte";
-    import Footer from "$lib/components/Footer.svelte";
-    let showModal = false;
+  import "../style.css";
+  import logo from "$lib/img/Logo_without_text.png";
+  import ContactForm from "../lib/components/ContactForm.svelte";
+  import Footer from "$lib/components/Footer.svelte";
 
-function openContactModal(){
-  showModal = true;
-  document.body.style.overflow = "hidden";
-  //darken site
-}
-function closeContactModal(){
-  showModal = false;
-  document.body.style.overflow = "auto";
-}
-  </script>
+  let showModal = false;
+
+  function openContactModal() {
+    showModal = true;
+    document.body.style.overflow = "hidden";
+    //darken site
+  }
+
+  function closeContactModal() {
+    showModal = false;
+    document.body.style.overflow = "auto";
+  }
+
+ /* window._mfq = window._mfq || [];
+  (function () {
+    var mf = document.createElement("script");
+    mf.type = "text/javascript"; 
+    mf.async = true;
+    mf.src = "//cdn.mouseflow.com/projects/776c0027-44a5-48e7-8b19-a86e2b9fb735.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+  })();*/ //mouseflow
+</script>
+
   <svelte:head>
     <link rel="icon" type="image/x-icon" href={logo}>
   </svelte:head>

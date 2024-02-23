@@ -20,5 +20,4 @@
     background-size: 200% 100%;
     background-position: 70%;
 }
-
 </style>

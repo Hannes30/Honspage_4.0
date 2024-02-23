@@ -1,6 +1,6 @@
 <footer class="mt-20 bg-primary-400 text-secondary p-5">
     <div class="text-2xl font-medium text-center sm:text-3xl">© Hannes Scheibelauer</div>
-    <div class="flex justify-around flex-wrap">
+    <div class="flex justify-around">
         <div class="text-l sm:leading-loose sm:text-xl leading-7"> <div class="text-2xl sm:text-3xl font-medium leading-tight"> Contact </div>Hannes Scheibelauer <p>kontakt@hannes-scheibelauer.at
             </p> <p>0670 2018717</p>
         </div>
