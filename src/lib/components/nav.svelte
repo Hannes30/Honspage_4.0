@@ -58,7 +58,7 @@
   </div>
 
   <div class="w-1/3 flex justify-around">
-    <NavComponent href="./" active={active == 1}> Home </NavComponent>
+    <NavComponent href="/" active={active == 1}> Home </NavComponent>
     <NavComponent href="/projects" active={active == 2}> Projekte </NavComponent>
     <NavComponent href="/services" active={active == 3}> Leistungen </NavComponent>
   </div>
