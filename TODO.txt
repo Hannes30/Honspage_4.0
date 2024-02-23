@@ -1,6 +1,3 @@
-Highlight Elements in Text
-Responsive Desgin
-Project Page
-Services Page
-
+Single Project Page erstellen
+Single Service Page erstellen
 mouseflow aktivieren
