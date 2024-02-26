@@ -54,7 +54,7 @@
 
 <nav class={"flex justify-around items-center mr-4 fixed w-full z-40 p-4 rounded-md bg-opacity-50 duration-500" + (isNavbarAtTop ? "" : " bg-secondary")}>
   <div class="bg-stone-500 text-3xl font-normal flex flex-nowrap items-center justify-around">
-    <a href="./"><span class="ml-4 font-bold sm:block hidden">Hannes Scheibelauer</span></a>
+    <a href="/"><span class="ml-4 font-bold sm:block hidden">Hannes Scheibelauer</span></a>
   </div>
 
   <div class="w-1/3 flex justify-around">

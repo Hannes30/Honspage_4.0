@@ -2,16 +2,16 @@
     export let headingText;
     export let headingTextHighlighted;
 </script>
-<div class="waves text-secondary -top-44 relative lg:-top-36">
-    <article class="p-28 pl-16 pb-40">
-        <h2 class="text-3xl lg:text-5xl mt-8 lg:mt-0">
-            {headingText} <span class=" font-bold text-3xl lg:text-5xl text-secondary">  {headingTextHighlighted}  </span>
+<div class={"waves text-secondary"}>
+    <article class="lg:p-28 lg:pl-16 lg:pb-40 pb-40 pl-1 p-10">
+        <h2 class="mt-12 lg:mt-0">
+            {headingText} <span class=" font-bold lg:text-5xl text-secondary">  {headingTextHighlighted}  </span>
         </h2>
-        <div class="lg:text-2xl text-lg lg:mt-16 mt-4">
+        <div class="lg:text-2xl text-lg lg:mt-8 mt-4">
             <slot />
         </div>
     </article>
-</div>
+</div>  
 
 
 <style>
