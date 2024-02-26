@@ -2,11 +2,11 @@
   {
     "url": "HofcafeWolfpassing",
     "name": "Hofcafe Wolfpassing",
-    "startText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum",
-    "problemText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum",
-    "solvingText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum",
-    "resultText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum",
-    "Img": "/projects/Hofcafe_Collage.jpg",
+    "startText": "Die Kundin, Inhaberin des Hofcafés Wolfpassing, benötigte eine moderne Online-Präsenz, um ihr Café und ihre Dienstleistungen besser zu präsentieren. Zusätzlich wünschte sie sich ein neues Logo, das die Identität ihres Unternehmens widerspiegelt.",
+    "problemText": "Nach ausführlichen Gesprächen mit der Kundin über ihre Vorstellungen und Anforderungen begann ich mit dem Designprozess. Nach Erstellung des Logos setzte ich die Gestaltung der Website in Angriff. Die Website wurde so entworfen, dass sie nicht nur ästhetisch ansprechend ist, sondern auch benutzerfreundlich und leicht navigierbar. Dabei legte ich besonderen Wert darauf, das Logo nahtlos in das Gesamtdesign der Website zu integrieren, um eine konsistente Markenidentität zu gewährleisten.",
+    "solvingText": "Um die Website effizient zu verwalten, entwickelte ich ein maßgeschneidertes Content Management System (CMS). Dies ermöglicht der Kundin, Inhalte auf ihrer Website selbstständig zu aktualisieren und zu pflegen, ohne auf technische Unterstützung angewiesen zu sein. Die Codierung der Website erfolgte unter Berücksichtigung moderner Webstandards und responsiven Designs. Dadurch ist die Website sowohl auf Desktop- als auch auf mobilen Geräten optimal zugänglich",
+    "resultText": "Die Website für das Hofcafé Wolfpassing ist nun online und spiegelt die einladende Atmosphäre des Cafés wider. Durch das implementierte CMS kann die Kundin ihre Inhalte selbstständig aktualisieren, was zu einer effektiven Pflege der Online-Präsenz führt. Die erfolgreiche Umsetzung dieses Projekts hat nicht nur die digitale Präsenz des Hofcafés verbessert, sondern auch dazu beigetragen, die Markenidentität zu stärken und die Interaktion mit den Kunden zu fördern.",
+    "img": "/projects/Hofcafe_Collage.jpg",
     "link": "https://schlosswolfpassing.at/",
     "tags": ["Homepage", "Logo", "CMS", "Hosting"]
   },

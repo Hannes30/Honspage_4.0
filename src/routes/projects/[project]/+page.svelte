@@ -1,9 +1,8 @@
 <script>
     import Nav from "$lib/components/Nav.svelte";
-  import ProjectTag from "../../../lib/components/ProjectTag.svelte";
-  import Waves from "../../../lib/components/Waves.svelte";
+  import ProjectTag from "$lib/components/ProjectTag.svelte";
+  import Waves from "$lib/components/Waves.svelte";
     export let data;
-    console.log(data);
 </script>
 <svelte:head>
 	<title>{data.name} - Hannes Scheibelauer</title>
@@ -21,6 +20,8 @@
         <div class="w-full mt-5"><Waves headingText="Die" headingTextHighlighted="Lösung">{data.problemText}</Waves></div>
        <div class="lg:p-16 pl-1"> <h2 class="w-full">Umsetzung</h2> <span class="lg:text-2xl lg:mt-16 text-lg"> {data.solvingText}</span></div>
        <div class="lg:p-16 pl-1"><h2 class="w-full ">Ergebniss</h2> <span class="lg:text-2xl lg:mt-16 text-lg">  {data.resultText}</span></div>
+       <a href={data.link} class="lg:text-3xl text-primary-400 underline hover:animate-pulse w-full text-center">{data.name}</a>
+      <div class="m-5 rounded-md"> <img alt={"picture of " + data.name} src={"/src/lib/img"+data.img} ></div>
 </div>
 <div>
     
