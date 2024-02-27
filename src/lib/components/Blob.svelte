@@ -33,13 +33,13 @@
 </script>
 
 <div class="relative w-1/3 min-w-80 max-w-96">
-  <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="w-full absolute z-10">
+  <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="w-full absolute z-10 " >
 
     <g>
-      <path id={id1} fill="#47ffbf" d={path1} transform="translate(100 100)" />
+      <path id={id1} fill="#47ffbf" d={path1} transform="translate(100 100)"  class=" "/>
     </g>
     <g>
-      <path id={id2} fill="#47ffbf" d={path2} transform="translate(100 100)" class=" hidden" />
+      <path id={id2} fill="#47ffbf" d={path2} transform="translate(100 100)" class=" hidden " />
     </g>
 
   </svg>
@@ -59,7 +59,5 @@
 
 </div>
 <style>
-  .description{
-    font-size: 36px;
-  }
+
 </style>
