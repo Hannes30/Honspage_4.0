@@ -4,8 +4,8 @@
     export let text;
     export let route;
 </script>
-
-<a class="m-10  wrapper flex justify-center" href={route + "/"+ name.replace(/\s/g,'')}>
+<div class="justify-center flex">
+<a class="m-10 wrapper flex justify-center w-3/4" href={route + "/"+ name.replace(/\s/g,'')}>
     <div class=" relative group overflow-hidden">
 
         <img src={image} alt={"Banner Image of " + name} class="h-full rounded-md">
@@ -16,6 +16,7 @@
         </div>
     </div>
 </a>
+</div>
 
 <style>
 .wrapper{
