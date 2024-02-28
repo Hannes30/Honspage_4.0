@@ -1,8 +1,8 @@
 <script>
   import Question from "./Question.svelte";
 </script>
-
-<div class="mt-1 w-full flex justify-center flex-wrap">
+<div class="bg-secondary w-full  h-20 lg:rotate-2 rotate-6 relative"></div> <!-- Seperator-->
+<div class="-mt-10 w-full flex justify-center flex-wrap bg-secondary -mb-20 py-10 z-10 relative">
   <Question QuestionText="Wie kann eine Website meinem Unternehmen helfen?">
     Eine Website ist deine digitale <span class="highlighted text-2xl">Visitenkarte im Web</span>. Für Kunden oder Interessenten ist sie die erste Anlaufstelle für Informationen. Ein positiver <span class="highlighted text-2xl">erster Eindruck</span> ist nicht nur in der realen Welt wichtig, sondern auch in der Digitalen.
   </Question>

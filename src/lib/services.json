@@ -1,5 +1,10 @@
 [
   {
-    "title": "Web Development"
+    "name": "Web Development",
+    "text": "Nicht jede Website hat den selben Aufwand deshalb ist es schwierig einen genauen Preis zu nennen, trotz dessen habe ich 3 Pakete zusammengestellt bei denen jedes klein bis Mittelgroßes Unternehmen ein passendes finden wird"
+  },
+  {
+    "name": "Web Hosting",
+    "text": "Hosting nennt sich das Online bereitstellen der Website diese Läuft auf einen Server und dieser hat Strom und erhaltungskosten "
   }
 ]
