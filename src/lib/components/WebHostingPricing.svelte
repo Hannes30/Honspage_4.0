@@ -35,7 +35,6 @@ const pricingModels = [
     ]
   }
 ];
-console.log(pricingModels)
 
 </script>
 
