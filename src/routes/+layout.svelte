@@ -40,7 +40,7 @@
     content="Hannes Scheibelauer ist ein Web Developer aus Niederösterreich. Er erstellt Websites und Web Apps für Firmen und Privatpersonen." />  
   <meta
     property="og:image"
-    content="https://hannes-scheibelauer.at/static/logo.png" />
+    content="https://hannes-scheibelauer.at/logo.png" />
   <script
     async
     src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`}
