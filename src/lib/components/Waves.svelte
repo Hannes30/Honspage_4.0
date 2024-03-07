@@ -18,12 +18,12 @@
 <style>
 .waves{
     
-    background-size: 400% 100%;
+    background-size: 100% 100%;
     background-position: 70%;
 }
 @media only screen and (min-width: 1024px) {
 .waves{
-    background-size: 200% 100%;
+    background-size: 100% 100%;
 }
 }
 
