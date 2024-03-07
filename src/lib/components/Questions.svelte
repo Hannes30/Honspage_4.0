@@ -34,10 +34,9 @@
 <style>
 
   .highlighted{
-    background-color: #C2FFEA;
+    background-color: #47FFBF44;
     border-radius: 6px;
   
-    color: #022034;
     padding: 0px 4px;
     display: inline;
   

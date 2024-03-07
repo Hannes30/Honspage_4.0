@@ -6,7 +6,7 @@
   import CallToAction from "../lib/components/CallToAction.svelte";
   import Questions from "../lib/components/Questions.svelte";
 
-  
+
 
 </script>
 <svelte:head>
@@ -18,8 +18,8 @@
 <LandingScreen />
 <div class="-top-44 relative lg:-top-36">
 <Waves headingText="Ich bin"  headingTextHighlighted="Hannes">
-  <p>Ich  besuche die <span class=" highlightedSpan  lg:text-2xl text-lg bg-opacity-50">IT-HTL ybbs</span> als Schüler, habe jedoch früh erkannt, dass mir <span class="lg:text-2xl text-lg highlightedSpan bg-opacity-50">Webdesign</span>  mehr Freude bereitet als andere Fachbereiche. Seit dem Jahr <span class="lg:text-2xl text-lg highlightedSpan bg-opacity-50">2022</span> gestalte ich Websites für verschiedene Unternehmen. Anfang 2024 habe ich schließlich mein <span class="lg:text-2xl text-lg highlightedSpan bg-opacity-50">eigenes Unternehmen</span> gegründet.</p><br/><p> In meiner Arbeitsweise steht die <span class="lg:text-2xl text-lg highlightedSpan bg-opacity-50">Zusammenarbeit</span>
-     im Vordergrund – ich arbeite nicht nur für meine Kunden, sondern <span class="lg:text-2xl text-lg highlightedSpan bg-opacity-50">gemeinsam</span> mit ihnen. Jedes Design stimme ich persönlich mit meinen Kunden ab, um sicherzustellen, dass die Website erst dann finalisiert wird, wenn sie zu <span class="lg:text-2xl text-lg highlightedSpan bg-opacity-50">100% ihren Anforderungen</span> entspricht.</p>
+  <p>Ich  besuche die IT-HTL ybbs als Schüler, habe jedoch früh erkannt, dass mir Webdesign  mehr Freude bereitet als andere Fachbereiche. Seit dem Jahr Zusammenarbeit
+     im Vordergrund – ich arbeite nicht nur für meine Kunden, sondern gemeinsam mit ihnen. Jedes Design stimme ich persönlich mit meinen Kunden ab, um sicherzustellen, dass die Website erst dann finalisiert wird, wenn sie zu 100% ihren Anforderungen entspricht.</p>
 </Waves> </div>
 <Blobs></Blobs>
 <CallToAction></CallToAction>
