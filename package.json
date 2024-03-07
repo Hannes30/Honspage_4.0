@@ -20,6 +20,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"kute.js": "^2.2.4"
+		"kute.js": "^2.2.4",
+		"motion": "^10.17.0"
 	}
 }

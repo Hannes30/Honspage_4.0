@@ -42,7 +42,7 @@ console.log(pricingModels)
 <div class="w-full text-center justify-center flex flex-wrap">  <h2 class="w-full mb-10">Pakete</h2>
   <div class="w-full flex justify-center flex-wrap lg:flex-nowrap">
       {#each pricingModels as pricingModel}
-      <Pricing name={pricingModel.name} benefits={pricingModel.benefits} price={pricingModel.price }><span>Monat</span></Pricing>
+      <Pricing name={pricingModel.name} benefits={pricingModel.benefits} price={pricingModel.price}><span class="text-2xl"> /Monat</span></Pricing>
       {/each}
   </div>
 

@@ -1,15 +1,3 @@
-//Pure Development
-
-Single Service Page erstellen
-Better Text for Services
 flyin effects
-
-//3rd party service integration
-
-mouseflow aktivieren
-Google Analytics aktivieren
-
-//after Launch
-
 Seo Adjustments
 
