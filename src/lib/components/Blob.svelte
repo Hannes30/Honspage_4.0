@@ -32,7 +32,7 @@
   });
 </script>
 
-<div class="relative w-1/3 min-w-80 max-w-96">
+<div class="relative w-1/3 min-w-80 max-w-96 blobus">
   <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="w-full absolute z-10 " >
 
     <g>
@@ -59,5 +59,7 @@
 
 </div>
 <style>
-
+.blobus{
+  font-family: "Dosis", sans-serif;
+}
 </style>
