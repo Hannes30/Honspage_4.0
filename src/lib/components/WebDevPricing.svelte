@@ -10,7 +10,8 @@ const pricingModels = [
     benefits: [
       "3-5 Seiten",
       "Responsive - für mobile Geräte optimiert",
-      "Grundlegende SEO-Optimierung"
+      "Grundlegende SEO-Optimierung",
+      "WCAG konform"
       
     ]
   },
@@ -22,7 +23,8 @@ const pricingModels = [
       "Bildergalerie",
       "Content Managment System(CMS)",
       "Best mögliche SEO-Optimierung",
-      "eigene 404 Fehlerseite"
+      "eigene 404 Fehlerseite",
+      "WCAG konform"
     ]
   },
   {
@@ -32,7 +34,8 @@ const pricingModels = [
       "E-Commerce-Funktionalität mit Produktdarstellung, Warenkorb und Checkout",
       "Zahlungsgateway-Integration (z.B., PayPal, Stripe)",
       "Produktbilder und -beschreibungen",
-      "Kundenkonto und einfache Bestellverfolgung"
+      "Kundenkonto und einfache Bestellverfolgung",
+      "WCAG konform"
     ]
   },
   /*{
