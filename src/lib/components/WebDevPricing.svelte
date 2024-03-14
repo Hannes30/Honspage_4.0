@@ -6,7 +6,7 @@
 const pricingModels = [
   {
     name: "Web-Starter",
-    price: 800,
+    price: 600,
     benefits: [
       "3-5 Seiten",
       "Responsive - für mobile Geräte optimiert",
@@ -16,7 +16,7 @@ const pricingModels = [
   },
   {
     name: "Business Website Plus",
-    price: 1450,
+    price: 1150,
     benefits: [
       "5-7 Seiten mit professionellem Design",
       "Bildergalerie",
@@ -27,7 +27,7 @@ const pricingModels = [
   },
   {
     name: "E-Commerce Pro",
-    price: 2450,
+    price: 2050,
     benefits: [
       "E-Commerce-Funktionalität mit Produktdarstellung, Warenkorb und Checkout",
       "Zahlungsgateway-Integration (z.B., PayPal, Stripe)",
