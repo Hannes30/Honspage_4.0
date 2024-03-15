@@ -11,5 +11,5 @@
 <div class="pt-20 flex justify-center flex-wrap">
   <h1 class="w-full text-center">Projekte</h1>
   <Banner image={HofcafeImage} name="Hofcafe Wolfpassing" text="August 2023" route="projects"></Banner>
-  <Banner image={PortfolioImage} name="Portfolio Website" text="Februar 2024 - März 2024" route="projects"></Banner>
+  <Banner image={PortfolioImage} name="Portfolio" text="Februar 2024 - März 2024" route="projects"></Banner>
 </div>
