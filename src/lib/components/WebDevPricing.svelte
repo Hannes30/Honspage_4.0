@@ -6,7 +6,7 @@
 const pricingModels = [
   {
     name: "Web-Starter",
-    price: 600,
+    price: 650,
     benefits: [
       "3-5 Seiten",
       "Responsive - für mobile Geräte optimiert",

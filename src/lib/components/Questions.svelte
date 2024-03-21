@@ -9,7 +9,7 @@
   </Question>
   
   <Question QuestionText="Was kostet eine Website?">
-    Die Kosten für eine Website können variieren und sind nicht festgelegt. Für ein Unternehmen mit umfangreichen Anforderungen und Funktionen können die Kosten bei <span class="highlighted text-2xl">5000€</span> oder mehr liegen. Hingegen kann eine einfache Website für ein kleines Unternehmen mit grundlegenden Informationen <span class="highlighted text-2xl">600€</span>  oder weniger kosten.
+    Die Kosten für eine Website können variieren und sind nicht festgelegt. Für ein Unternehmen mit umfangreichen Anforderungen und Funktionen können die Kosten bei <span class="highlighted text-2xl">5000€</span> oder mehr liegen. Hingegen kann eine einfache Website für ein kleines Unternehmen mit grundlegenden Informationen <span class="highlighted text-2xl">700€</span>  oder weniger kosten.
   </Question>
   
   <Question QuestionText="Wie lange dauert die Entwicklung?">

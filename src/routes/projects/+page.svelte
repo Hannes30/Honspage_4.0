@@ -3,6 +3,7 @@
   import Banner from "$lib/components/Banner.svelte";
   import HofcafeImage from "$lib/img/projects/Hofcafe_Collage.jpg"
   import PortfolioImage from "$lib/img/projects/Portfolio_Collage.jpg"
+  import EcoGift from "$lib/img/projects/EcoGift.png"
 </script>
 <svelte:head>
 	<title>Projekte - Hannes Scheibelauer</title>
@@ -11,5 +12,6 @@
 <div class="pt-20 flex justify-center flex-wrap">
   <h1 class="w-full text-center">Projekte</h1>
   <Banner image={HofcafeImage} name="Hofcafe Wolfpassing" text="August 2023" route="projects"></Banner>
+  <Banner image={EcoGift} name="EcoGift" text="18.03.2024 - 20.03.2024" route="projects"></Banner>
   <Banner image={PortfolioImage} name="Portfolio" text="Februar 2024 - März 2024" route="projects"></Banner>
 </div>

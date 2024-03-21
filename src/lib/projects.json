@@ -21,5 +21,17 @@
     "img": "/projects/Portfolio_Collage.jpg",
     "link": "https://hannes-scheibelauer.at",
     "tags": ["Portfolio", "Webdesign", "Responsive Design", "User Experience"]
+  },
+
+  {
+    "url": "EcoGift",
+    "name": "EcoGift",
+    "startText": "Am A1 Hackathon bekamen wir die Aufgabe, eine innovative Lösung zur Beseitigung von billigen Werbegeschenken wie z.B. Kugelschreibern zu finden. Eine digitale Lösung musste her, und dafür war ich und mein Team perfekt geeignet.",
+    "problemText": "Um dieses Problem anzugehen, haben wir das Konzept von EcoGift entwickelt. Statt traditioneller physischer Werbegeschenke entschieden wir uns für ein unterhaltsames Spiel, das Nutzer einbindet und zugleich einen Beitrag zur Nachhaltigkeit leistet. Die technische Umsetzung beinhaltete die Entwicklung einer benutzerfreundlichen App, die es den Nutzern ermöglicht, Punkte zu sammeln und sie dann an eine Non-Profit-Organisation ihrer Wahl zu spenden.",
+    "solvingText": "Die Umsetzung erfolgte mit Figma, wobei wir uns für einen modernen Look in den A1-Farben entschieden haben. Zusätzlich haben wir das Spiel programmiert und einen A1-Charakter erstellt, um das Projekt noch stärker mit der Marke zu verbinden.",
+    "resultText": "Das Ergebnis war ein innovatives Projekt, das nicht nur die Nachhaltigkeitsbemühungen von A1 unterstützt, sondern auch eine positive Bindung zwischen der Marke und den Nutzern fördert. EcoGift bietet nicht nur einen Mehrwert für die Umwelt, sondern auch für die Nutzer, die durch ihre Teilnahme an dem Spiel einen Rabatt auf A1-Tarife erhalten.",
+    "img": "/projects/EcoGift.png",
+    "link": "https://github.com/Ecogift",
+    "tags": ["Sustainability", "Innovation", "Figma", "UI/UX"]
   }
 ]
