@@ -1,5 +1,5 @@
 <script>
-    import HanneswithDotsLight_medium from "$lib/img/HanneswithDotsLight_medium.webp"
+    import HanneswithDotsLight_medium from "$lib/img/HanneswithDotsLight_medium.webp?enhanced"
 
 </script>
 <div class="flex flex-wrap justify-around items-center ml-16 lg:flex-nowrap pt-20">

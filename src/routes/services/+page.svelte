@@ -1,8 +1,8 @@
 <script>
     import Nav from "$lib/components/Nav.svelte";
     import Banner from "$lib/components/Banner.svelte";
-    import WebHostingImage from "$lib/img/projects/Web-Hosting.jpg"
-    import WebDevImage from "$lib/img/projects/Web-Entwicklung.jpg"
+    import WebHostingImage from "$lib/img/projects/Web-Hosting.jpg?enhanced"
+    import WebDevImage from "$lib/img/projects/Web-Entwicklung.jpg?enhanced"
 </script>
 <svelte:head>
 	<title>Leistungen - Hannes Scheibelauer</title>

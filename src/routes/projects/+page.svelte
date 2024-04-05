@@ -1,8 +1,8 @@
 <script>
   import Nav from "$lib/components/Nav.svelte";
   import Banner from "$lib/components/Banner.svelte";
-  import HofcafeImage from "$lib/img/projects/Hofcafe_Collage.jpg"
-  import PortfolioImage from "$lib/img/projects/Portfolio_Collage.jpg"
+  import HofcafeImage from "$lib/img/projects/Hofcafe_Collage.jpg?enhanced"
+  import PortfolioImage from "$lib/img/projects/Portfolio_Collage.jpg?enhanced"
   import EcoGift from "$lib/img/projects/EcoGift.png"
 </script>
 <svelte:head>
