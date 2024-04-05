@@ -9,7 +9,7 @@
         für <span class=" text-secondary bg-primary-200 px-2 rounded-md backgroundFadeIn">deine</span> digitale Erfolgsstory!</span>
     </div>
     <div class="">
-        <img src={HanneswithDotsLight_medium} alt="Hannes Scheibelauer with Web Icons">
+        <enhanced:img src={HanneswithDotsLight_medium} alt="Hannes Scheibelauer with Web Icons">
      </div>
 </div>
 <style>
