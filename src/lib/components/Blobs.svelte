@@ -2,7 +2,7 @@
   import Blob from "./Blob.svelte";
   
 </script>
-<div class="lg:m-20 m-4 -mt-20">
+<div class=" m-4 -mt-20">
     <div class="flex flex-wrap justify-around text-center w-full font-bold text-5xl">
         <Blob number="2" description="Jahre Erfahrung"
         id1="blob1" id2="blob2" duration={5000} delay={200} 
