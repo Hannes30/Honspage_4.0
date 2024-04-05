@@ -1,6 +1,4 @@
 <script>
-  // Import Kute.js at the top
-  import KUTE from "kute.js";
   import { onMount } from "svelte";
 
   export let path1;
@@ -13,22 +11,24 @@
   export let description;
 
   onMount(() => {
-    // Now you can directly use KUTE without importing it again
-    const tween = KUTE.fromTo(
-      "#" + id1,
-      { path: "#" + id1 },
-      { path: "#" + id2 },
-      { repeat: 999, duration: duration, yoyo: true, delay: delay }
-    );
+    import("kute.js").then((module) => {
+      const KUTE = module.default;
+      const tween = KUTE.fromTo(
+        "#" + id1,
+        { path: "#" + id1 },
+        { path: "#" + id2 },
+        { repeat: 999, duration: duration, yoyo: true, delay: delay }
+      );
 
-    const tween2 = KUTE.fromTo(
-      "#" + id1 + "-bg",
-      { path: "#" + id1 + "-bg" },
-      { path: "#" + id2 + "-bg" },
-      { repeat: 999, duration: duration, yoyo: true, delay: delay, easing: "easingSinusoidalIn" }
-    );
-    tween.start();
-    tween2.start();
+      const tween2 = KUTE.fromTo(
+        "#" + id1 + "-bg",
+        { path: "#" + id1 + "-bg" },
+        { path: "#" + id2 + "-bg" },
+        { repeat: 999, duration: duration, yoyo: true, delay: delay, easing: "easingSinusoidalIn" }
+      );
+      tween.start();
+      tween2.start();
+    });
   });
 </script>
 
@@ -58,9 +58,8 @@
   </div>
 
 </div>
-
 <style>
-  .blobus {
-    font-family: "Dosis", sans-serif;
-  }
+.blobus{
+  font-family: "Dosis", sans-serif;
+}
 </style>
