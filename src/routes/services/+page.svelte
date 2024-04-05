@@ -10,6 +10,6 @@
 <Nav active=3></Nav>
 <div class="pt-20 flex justify-center flex-wrap">
   <h1 class="w-full text-center">Leistungen</h1>
-  <Banner image={WebDevImage} name="Web Development" text="ab 800€" route="services"></Banner>
+  <Banner image={WebDevImage} name="Web Development" text="ab 650€" route="services"></Banner>
   <Banner image={WebHostingImage} name="Web Hosting" text="10-40€ Monatlich" route="services"></Banner>
 </div>
