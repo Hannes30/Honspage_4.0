@@ -222,5 +222,10 @@
     ],
     "isEntry": true,
     "src": "src/routes/services/[service]/+page.svelte"
+  },
+  "src/routes/sitemap.xml/+server.js": {
+    "file": "entries/endpoints/sitemap.xml/_server.js",
+    "isEntry": true,
+    "src": "src/routes/sitemap.xml/+server.js"
   }
 }

@@ -14,7 +14,7 @@ const css = {
 };
 const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `${$$result.head += `<!-- HEAD_svelte-1th4byg_START --><link rel="icon" type="image/x-icon"${add_attribute("href", logo, 0)}><meta name="description" content="Portfolio Seite von Hannes Scheibelauer, ein Web Developer aus Niederösterreich"><meta name="keywords" content="Hannes Scheibelauer, Scheibelauer, Website Erstellen, Web Developer, Webdesign Mostviertel, Wieselburg Webentwicklung, Responsive Webseiten, Niederösterreich Webdesign, Online-Präsenz gestalten, SEO-optimierte Webseiten, Maßgeschneiderte Websites, E-Commerce Lösungen, Lokale Unternehmenswebseiten, Webentwickler Dienstleistungen, Content-Management-Systeme, Web-Branding, Grafikdesign für Webseiten, Nutzerfreundliches Design, Mobile-optimierte Seiten, Online-Marketing, Social-Media-Integration, Blog-Integration, Webseiten-Wartung"><meta name="robots" content="index, follow"><meta property="og:title" content="Portfolio Website von Hannes Scheibelauer"><meta property="og:description" content="Hannes Scheibelauer ist ein Web Developer aus Niederösterreich. Er erstellt Websites und Web Apps für Firmen und Privatpersonen."><meta property="og:image" content="https://hannes-scheibelauer.at/logo.png"><script async${add_attribute("src", `https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`, 0)}><\/script><script${add_attribute(
+  return `${$$result.head += `<!-- HEAD_svelte-bdk1sy_START --><link rel="icon" type="image/x-icon"${add_attribute("href", logo, 0)}><meta name="description" content="Portfolio Seite von Hannes Scheibelauer, ein Web Developer aus Niederösterreich"><meta name="keywords" content="Website Erstellen, Webseite kaufen, Homepage erstellen, Webdesign Mostviertel, Wieselburg Webentwicklung, Responsive Webseiten, Niederösterreich Webdesign, Online-Präsenz gestalten, Lokale Unternehmenswebseiten, Webentwickler Dienstleistungen, Grafikdesign für Webseiten, Nutzerfreundliches Design, Mobile-optimierte Seiten, Online-Marketing, Social-Media-Integration,Webseiten-Wartung"><meta name="robots" content="index, follow"><meta property="og:title" content="Portfolio Website von Hannes Scheibelauer"><meta property="og:description" content="Hannes Scheibelauer ist ein Web Developer aus Niederösterreich. Er erstellt Websites und Web Apps für Firmen und Privatpersonen."><meta property="og:image" content="https://hannes-scheibelauer.at/logo.png"><script async${add_attribute("src", `https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`, 0)}><\/script><script${add_attribute(
     "dangerouslysetinnerhtml",
     {
       __html: `
@@ -25,7 +25,7 @@ const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       `
     },
     0
-  )}><\/script><!-- HEAD_svelte-1th4byg_END -->`, ""} <div class="body bg-black svelte-1p66dub">${``} <div>${slots.default ? slots.default({}) : ``}</div> ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})} </div>`;
+  )}><\/script><!-- HEAD_svelte-bdk1sy_END -->`, ""} <div class="body bg-black svelte-1p66dub">${``} <div>${slots.default ? slots.default({}) : ``}</div> ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})} </div>`;
 });
 export {
   Layout as default
