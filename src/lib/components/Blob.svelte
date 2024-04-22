@@ -1,5 +1,6 @@
 <script>
   
+  import { animate } from "motion";
   import { onMount } from "svelte";
 
   export let path1;
@@ -10,6 +11,8 @@
   export let id2;
   export let number;
   export let description;
+
+ 
 
   onMount(() => {
     import("kute.js").then((module) => {
