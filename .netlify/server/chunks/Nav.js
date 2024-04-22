@@ -1,4 +1,4 @@
-import { c as create_ssr_component, d as compute_rest_props, g as getContext, f as spread, h as escape_object, i as escape_attribute_value, a as add_attribute, v as validate_component, j as subscribe, e as escape, n as null_to_empty } from "./ssr.js";
+import { c as create_ssr_component, d as compute_rest_props, g as getContext, f as spread, h as escape_object, i as escape_attribute_value, a as add_attribute, v as validate_component, j as subscribe, b as escape, n as null_to_empty } from "./ssr.js";
 import { twMerge } from "tailwind-merge";
 import { w as writable } from "./index.js";
 const EnvelopeSolid = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -158,7 +158,7 @@ const ContactForm = create_ssr_component(($$result, $$props, $$bindings, slots) 
   let { closeContactModal } = $$props;
   if ($$props.closeContactModal === void 0 && $$bindings.closeContactModal && closeContactModal !== void 0)
     $$bindings.closeContactModal(closeContactModal);
-  return `<div class="flex justify-center inset-0 items-center z-50 fixed w-full h-full bg-black bg-opacity-70"><div class="w-max relative bg-secondary border border-white rounded-md p-10"><h1 class="text-5xl pb-3" data-svelte-h="svelte-1hb29xy">Kontaktiere mich</h1> <p class="inline">${validate_component(PhoneOutline, "PhoneOutline").$$render($$result, { class: "h-8 w-8 text-primary-400 inline" }, {}, {})} 0670 2018717</p> <p><a href="mailto:Kontakt@hannes-scheibelauer.at">${validate_component(EnvelopeSolid, "EnvelopeSolid").$$render($$result, { class: "h-8 w-8 inline text-primary-400" }, {}, {})} Kontakt@hannes-scheibelauer.at</a></p> <p><a href="mailto:Kontak@hannes-scheibelauer.at">${validate_component(GithubSolid, "GithubSolid").$$render($$result, { class: "h-8 w-8 inline text-primary-400" }, {}, {})}   Hannes30</a></p> <p><a href=" https://www.linkedin.com/in/hannes-scheibelauer-65b9a8238/">${validate_component(LinkedinSolid, "LinkedinSolid").$$render($$result, { class: "h-8 w-8 inline text-primary-400" }, {}, {})} Hannes Scheibelauer</a></p> <button class="absolute top-2 right-3 text-4xl text-primary-400" data-svelte-h="svelte-1yrq5mk">X</button></div></div>`;
+  return `<div class="flex justify-center inset-0 items-center z-50 fixed w-full h-full bg-black bg-opacity-70"><div class="w-min lg:w-max relative bg-secondary border border-white rounded-md p-10"><h1 class="text-5xl pb-3" data-svelte-h="svelte-1hb29xy">Kontaktiere mich</h1> <p class="inline">${validate_component(PhoneOutline, "PhoneOutline").$$render($$result, { class: "h-8 w-8 text-primary-400 inline" }, {}, {})} 0670 2018717</p> <p><a href="mailto:Kontakt@hannes-scheibelauer.at">${validate_component(EnvelopeSolid, "EnvelopeSolid").$$render($$result, { class: "h-8 w-8 inline text-primary-400" }, {}, {})} Kontakt@hannes-scheibelauer.at</a></p> <p><a href="mailto:Kontak@hannes-scheibelauer.at">${validate_component(GithubSolid, "GithubSolid").$$render($$result, { class: "h-8 w-8 inline text-primary-400" }, {}, {})}   Hannes30</a></p> <p><a href=" https://www.linkedin.com/in/hannes-scheibelauer-65b9a8238/">${validate_component(LinkedinSolid, "LinkedinSolid").$$render($$result, { class: "h-8 w-8 inline text-primary-400" }, {}, {})} Hannes Scheibelauer</a></p> <button class="absolute top-2 right-3 text-4xl text-primary-400" data-svelte-h="svelte-1yrq5mk">X</button></div></div>`;
 });
 const NavComponent = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { href } = $$props;
@@ -167,7 +167,7 @@ const NavComponent = create_ssr_component(($$result, $$props, $$bindings, slots)
     $$bindings.href(href);
   if ($$props.active === void 0 && $$bindings.active && active !== void 0)
     $$bindings.active(active);
-  return `<a${add_attribute("class", "px-4 py-1 mr-2  hover:text-secondary hover:bg-primary-200 rounded-md duration-500 font-medium" + (active ? " bg-primary-200 text-secondary" : ""), 0)}${add_attribute("href", href, 0)}>${slots.default ? slots.default({}) : ``}</a>`;
+  return `<a${add_attribute("class", "lg:px-4 px-1 lg:py-1  sm:mr-2  hover:text-secondary hover:bg-primary-200 rounded-md duration-500 font-medium mx-2" + (active ? " bg-primary-200 text-secondary" : ""), 0)}${add_attribute("href", href, 0)}>${slots.default ? slots.default({}) : ``}</a>`;
 });
 const showModalStore = writable(false);
 const css = {
@@ -185,11 +185,20 @@ const Nav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     $$bindings.active(active);
   $$result.css.add(css);
   $$unsubscribe_showModalStore();
-  return `${$showModalStore ? `${validate_component(ContactForm, "ContactForm").$$render($$result, { closeContactModal }, {}, {})}` : ``} <nav class="${escape(null_to_empty("flex justify-around items-center mr-4 fixed w-full z-40 p-4 rounded-md bg-opacity-50 duration-500"), true) + " svelte-yeimer"}"><div class="bg-stone-500 text-3xl font-normal flex flex-nowrap items-center justify-around" data-svelte-h="svelte-dj199h"><a href="/"><span class="ml-4 font-bold sm:block hidden">Hannes Scheibelauer</span></a></div> <div class="w-1/3 flex justify-around">${validate_component(NavComponent, "NavComponent").$$render($$result, { href: "/", active: active == 1 }, {}, {
-    default: () => {
-      return `Home`;
+  return `${$showModalStore ? `${validate_component(ContactForm, "ContactForm").$$render($$result, { closeContactModal }, {}, {})}` : ``} <nav class="${escape(null_to_empty("flex justify-around items-center lg:mr-4 sm:mr-1 fixed w-full z-40 lg:p-4 py-4 rounded-md bg-opacity-50 duration-500"), true) + " svelte-yeimer"}"><div class="bg-stone-500 text-3xl font-normal flex flex-nowrap items-center justify-around sm:block hidden" data-svelte-h="svelte-3deeyz"><a href="/"><span class="ml-4 font-bold ">Hannes Scheibelauer</span></a></div> <div class="lg:w-1/3 sm:w-2/3 flex justify-around">${validate_component(NavComponent, "NavComponent").$$render(
+    $$result,
+    {
+      href: "/",
+      active: active == 1,
+      "aria-label": "Back to Home"
+    },
+    {},
+    {
+      default: () => {
+        return `Home`;
+      }
     }
-  })} ${validate_component(NavComponent, "NavComponent").$$render($$result, { href: "/projects", active: active == 2 }, {}, {
+  )} ${validate_component(NavComponent, "NavComponent").$$render($$result, { href: "/projects", active: active == 2 }, {}, {
     default: () => {
       return `Projekte`;
     }
@@ -197,7 +206,7 @@ const Nav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     default: () => {
       return `Leistungen`;
     }
-  })}</div> <button class="bg-primary-400 rounded-md text-secondary px-4 py-1 font-semibold relative top-0 hover:-top-0.5 duration-300 button svelte-yeimer" data-svelte-h="svelte-igaa9h">Kontakt</button> </nav>`;
+  })}</div> <button class="bg-primary-400 rounded-md text-secondary lg:px-4 lg:py-1 px-2 font-semibold relative top-0 hover:-top-0.5 duration-300 button svelte-yeimer" data-svelte-h="svelte-6jfc34">Kontakt</button> </nav>`;
 });
 export {
   Nav as N

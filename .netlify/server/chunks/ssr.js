@@ -238,10 +238,10 @@ function style_object_to_string(style_object) {
 }
 export {
   add_attribute as a,
-  each as b,
+  escape as b,
   create_ssr_component as c,
   compute_rest_props as d,
-  escape as e,
+  each as e,
   spread as f,
   getContext as g,
   escape_object as h,

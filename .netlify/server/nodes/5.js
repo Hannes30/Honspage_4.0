@@ -5,6 +5,6 @@ let component_cache;
 export const component = async () => component_cache ??= (await import('../entries/pages/projects/_project_/_page.svelte.js')).default;
 export { server };
 export const server_id = "src/routes/projects/[project]/+page.server.js";
-export const imports = ["_app/immutable/nodes/5.LgNPGkG-.js","_app/immutable/chunks/scheduler.xf6jTNgh.js","_app/immutable/chunks/index.ZOb3XnUt.js","_app/immutable/chunks/each.6w4Ej4nR.js","_app/immutable/chunks/Nav.i-7WEO7k.js","_app/immutable/chunks/ContactForm.6v0WjrF5.js","_app/immutable/chunks/index.7YiL76hb.js","_app/immutable/chunks/Waves.K_Q-O9T6.js"];
-export const stylesheets = ["_app/immutable/assets/Nav.4Ppp6mM5.css","_app/immutable/assets/Waves.eR-QEibE.css"];
+export const imports = ["_app/immutable/nodes/5.Y8IdGuyi.js","_app/immutable/chunks/scheduler.9rETXCuu.js","_app/immutable/chunks/index.GzZsvtwO.js","_app/immutable/chunks/Waves.svelte_svelte_type_style_lang.ANW1yJ2Y.js","_app/immutable/chunks/Nav.AKDimoAP.js","_app/immutable/chunks/ContactForm.vJ3X5W0v.js","_app/immutable/chunks/index.SNfDup5C.js","_app/immutable/chunks/Waves.QBdbUr-R.js"];
+export const stylesheets = ["_app/immutable/assets/Waves.v4D2jFs5.css","_app/immutable/assets/Nav.4Ppp6mM5.css"];
 export const fonts = [];

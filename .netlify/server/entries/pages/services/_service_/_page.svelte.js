@@ -1,4 +1,4 @@
-import { c as create_ssr_component, d as compute_rest_props, g as getContext, f as spread, h as escape_object, i as escape_attribute_value, a as add_attribute, e as escape, b as each, v as validate_component } from "../../../../chunks/ssr.js";
+import { c as create_ssr_component, d as compute_rest_props, g as getContext, f as spread, h as escape_object, i as escape_attribute_value, a as add_attribute, b as escape, e as each, v as validate_component } from "../../../../chunks/ssr.js";
 import { N as Nav } from "../../../../chunks/Nav.js";
 /* empty css                                                     */
 import { twMerge } from "tailwind-merge";
@@ -62,7 +62,7 @@ const Pricing = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   if ($$props.price === void 0 && $$bindings.price && price !== void 0)
     $$bindings.price(price);
   $$result.css.add(css);
-  return `<div class="border border-primary-400 rounded-md p-10 xl:w-1/4 w-96 bg-secondary h-min mb-2"><h2 class="text-4xl w-full text-center py-2">${escape(name)}</h2> <div class="w-full text-center text-4xl font-bold text-primary-400 py-3">€${escape(price)} ${slots.default ? slots.default({}) : ``}</div> <div class="text-center flex flex-wrap py-2">${each(benefits, (benefit) => {
+  return `<div class="border border-primary-400 rounded-md p-10 xl:w-1/4 w-96 bg-secondary h-min mb-2 lg:m-0 m-4"><h2 class="text-4xl w-full text-center py-2">${escape(name)}</h2> <div class="w-full text-center text-4xl font-bold text-primary-400 py-3">€${escape(price)} ${slots.default ? slots.default({}) : ``}</div> <div class="text-center flex flex-wrap py-2">${each(benefits, (benefit) => {
     return `<div class="w-full justify-around m-2">${validate_component(CheckOutline, "CheckOutline").$$render(
       $$result,
       {
@@ -77,32 +77,35 @@ const WebDevPricing = create_ssr_component(($$result, $$props, $$bindings, slots
   const pricingModels = [
     {
       name: "Web-Starter",
-      price: 800,
+      price: 650,
       benefits: [
         "3-5 Seiten",
         "Responsive - für mobile Geräte optimiert",
-        "Grundlegende SEO-Optimierung"
+        "Grundlegende SEO-Optimierung",
+        "WCAG konform"
       ]
     },
     {
       name: "Business Website Plus",
-      price: 1450,
+      price: 1150,
       benefits: [
         "5-7 Seiten mit professionellem Design",
         "Bildergalerie",
         "Content Managment System(CMS)",
         "Best mögliche SEO-Optimierung",
-        "eigene 404 Fehlerseite"
+        "eigene 404 Fehlerseite",
+        "WCAG konform"
       ]
     },
     {
       name: "E-Commerce Pro",
-      price: 2450,
+      price: 2050,
       benefits: [
         "E-Commerce-Funktionalität mit Produktdarstellung, Warenkorb und Checkout",
         "Zahlungsgateway-Integration (z.B., PayPal, Stripe)",
         "Produktbilder und -beschreibungen",
-        "Kundenkonto und einfache Bestellverfolgung"
+        "Kundenkonto und einfache Bestellverfolgung",
+        "WCAG konform"
       ]
     }
   ];
@@ -169,7 +172,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let { data } = $$props;
   if ($$props.data === void 0 && $$bindings.data && data !== void 0)
     $$bindings.data(data);
-  return `${$$result.head += `<!-- HEAD_svelte-v922bh_START -->${$$result.title = `<title>${escape(data.services.name)} - Hannes Scheibelauer</title>`, ""}<!-- HEAD_svelte-v922bh_END -->`, ""} ${validate_component(Nav, "Nav").$$render($$result, { active: "3" }, {}, {})} <div class="pt-16 flex justify-center flex-wrap"><h1 class="w-full text-center">${escape(data.services.name)}</h1> <span class="text-center lg:text-3xl text-3xl w-3/4 py-16">${escape(data.services.text)}</span> ${data.services.name == "Web Development" ? `${validate_component(WebDevPricing, "WebDevPricing").$$render($$result, {}, {}, {})}` : `${data.services.name == "Web Hosting" ? `${validate_component(WebHostingPricing, "WebHostingPricing").$$render($$result, {}, {}, {})}` : ``}`}</div>`;
+  return `${$$result.head += `<!-- HEAD_svelte-v922bh_START -->${$$result.title = `<title>${escape(data.services.name)} - Hannes Scheibelauer</title>`, ""}<!-- HEAD_svelte-v922bh_END -->`, ""} ${validate_component(Nav, "Nav").$$render($$result, { active: "3" }, {}, {})} <div class="pt-16 flex justify-center flex-wrap"><h1 class="w-full text-center">${escape(data.services.name)}</h1> <span class="text-center lg:text-3xl w-3/4 py-16 text-lg">${escape(data.services.text)}</span> ${data.services.name == "Web Development" ? `${validate_component(WebDevPricing, "WebDevPricing").$$render($$result, {}, {}, {})}` : `${data.services.name == "Web Hosting" ? `${validate_component(WebHostingPricing, "WebHostingPricing").$$render($$result, {}, {}, {})}` : ``}`}</div>`;
 });
 export {
   Page as default

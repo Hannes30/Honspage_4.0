@@ -7,6 +7,18 @@
     "isEntry": true,
     "src": ".svelte-kit/generated/server/internal.js"
   },
+  "HanneswithDotsLight_medium.avif": {
+    "file": "_app/immutable/assets/HanneswithDotsLight_medium.Gk4MBtPO.avif",
+    "src": "HanneswithDotsLight_medium.avif"
+  },
+  "HanneswithDotsLight_medium.png": {
+    "file": "_app/immutable/assets/HanneswithDotsLight_medium.TT4DhKxH.png",
+    "src": "HanneswithDotsLight_medium.png"
+  },
+  "HanneswithDotsLight_medium.webp": {
+    "file": "_app/immutable/assets/HanneswithDotsLight_medium.8H5RAAnZ.webp",
+    "src": "HanneswithDotsLight_medium.webp"
+  },
   "_Banner.js": {
     "css": [
       "_app/immutable/assets/Banner.tY5Ej2pC.css"
@@ -28,10 +40,10 @@
   },
   "_Waves.js": {
     "assets": [
-      "_app/immutable/assets/waves.VACJ5pyW.png"
+      "_app/immutable/assets/waves.AvBJSobg.png"
     ],
     "css": [
-      "_app/immutable/assets/Waves.eR-QEibE.css"
+      "_app/immutable/assets/Waves.v4D2jFs5.css"
     ],
     "file": "chunks/Waves.js",
     "imports": [
@@ -39,7 +51,7 @@
     ]
   },
   "_Waves.svelte_svelte_type_style_lang.js": {
-    "file": "_app/immutable/assets/Waves.eR-QEibE.css",
+    "file": "_app/immutable/assets/Waves.v4D2jFs5.css",
     "src": "_Waves.svelte_svelte_type_style_lang.js"
   },
   "_index.js": {
@@ -66,17 +78,21 @@
     "isEntry": true,
     "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
   },
-  "src/lib/img/HanneswithDotsLight_medium.png": {
-    "file": "_app/immutable/assets/HanneswithDotsLight_medium.ur1BCRe0.png",
-    "src": "src/lib/img/HanneswithDotsLight_medium.png"
-  },
   "src/lib/img/Logo_without_text.png": {
     "file": "_app/immutable/assets/Logo_without_text.74l-q47g.png",
     "src": "src/lib/img/Logo_without_text.png"
   },
+  "src/lib/img/projects/EcoGift.png": {
+    "file": "_app/immutable/assets/EcoGift.P_8RRml7.png",
+    "src": "src/lib/img/projects/EcoGift.png"
+  },
   "src/lib/img/projects/Hofcafe_Collage.jpg": {
     "file": "_app/immutable/assets/Hofcafe_Collage.R47QJMGY.jpg",
     "src": "src/lib/img/projects/Hofcafe_Collage.jpg"
+  },
+  "src/lib/img/projects/Portfolio_Collage.jpg": {
+    "file": "_app/immutable/assets/Portfolio_Collage.9WC74SOR.jpg",
+    "src": "src/lib/img/projects/Portfolio_Collage.jpg"
   },
   "src/lib/img/projects/Web-Entwicklung.jpg": {
     "file": "_app/immutable/assets/Web-Entwicklung.URy1txVx.jpg",
@@ -87,7 +103,7 @@
     "src": "src/lib/img/projects/Web-Hosting.jpg"
   },
   "src/lib/img/waves.png": {
-    "file": "_app/immutable/assets/waves.VACJ5pyW.png",
+    "file": "_app/immutable/assets/waves.AvBJSobg.png",
     "src": "src/lib/img/waves.png"
   },
   "src/routes/+error.svelte": {
@@ -106,7 +122,7 @@
       "_app/immutable/assets/Logo_without_text.74l-q47g.png"
     ],
     "css": [
-      "_app/immutable/assets/_layout.lM7mp3p_.css"
+      "_app/immutable/assets/_layout._Z8jP7PJ.css"
     ],
     "file": "entries/pages/_layout.svelte.js",
     "imports": [
@@ -117,10 +133,15 @@
   },
   "src/routes/+page.svelte": {
     "assets": [
-      "_app/immutable/assets/HanneswithDotsLight_medium.ur1BCRe0.png"
+      "_app/immutable/assets/HanneswithDotsLight_medium.Dc7B5lKP.avif",
+      "_app/immutable/assets/HanneswithDotsLight_medium.Gk4MBtPO.avif",
+      "_app/immutable/assets/HanneswithDotsLight_medium.5NZ7y2SA.webp",
+      "_app/immutable/assets/HanneswithDotsLight_medium.8H5RAAnZ.webp",
+      "_app/immutable/assets/HanneswithDotsLight_medium.9JSfRmld.png",
+      "_app/immutable/assets/HanneswithDotsLight_medium.TT4DhKxH.png"
     ],
     "css": [
-      "_app/immutable/assets/_page.pP8zDM4W.css"
+      "_app/immutable/assets/_page.EeTiWcnz.css"
     ],
     "file": "entries/pages/_page.svelte.js",
     "imports": [
@@ -142,7 +163,9 @@
   },
   "src/routes/projects/+page.svelte": {
     "assets": [
-      "_app/immutable/assets/Hofcafe_Collage.R47QJMGY.jpg"
+      "_app/immutable/assets/Hofcafe_Collage.R47QJMGY.jpg",
+      "_app/immutable/assets/Portfolio_Collage.9WC74SOR.jpg",
+      "_app/immutable/assets/EcoGift.P_8RRml7.png"
     ],
     "file": "entries/pages/projects/_page.svelte.js",
     "imports": [
@@ -190,7 +213,7 @@
   "src/routes/services/[service]/+page.svelte": {
     "css": [
       "_app/immutable/assets/_page.-ui2vYka.css",
-      "_app/immutable/assets/Waves.eR-QEibE.css"
+      "_app/immutable/assets/Waves.v4D2jFs5.css"
     ],
     "file": "entries/pages/services/_service_/_page.svelte.js",
     "imports": [

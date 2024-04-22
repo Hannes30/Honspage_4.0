@@ -9,7 +9,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     {
       image: WebDevImage,
       name: "Web Development",
-      text: "ab 800€",
+      text: "ab 650€",
       route: "services"
     },
     {},

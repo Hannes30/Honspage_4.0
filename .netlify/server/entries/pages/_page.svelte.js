@@ -1,15 +1,28 @@
-import { c as create_ssr_component, a as add_attribute, e as escape, v as validate_component } from "../../chunks/ssr.js";
+import { c as create_ssr_component, a as add_attribute, e as each, b as escape, v as validate_component } from "../../chunks/ssr.js";
 import { N as Nav } from "../../chunks/Nav.js";
 import { W as Waves } from "../../chunks/Waves.js";
-const HanneswithDotsLight_medium = "/_app/immutable/assets/HanneswithDotsLight_medium.ur1BCRe0.png";
+const HanneswithDotsLight_medium = {
+  sources: {
+    avif: "/_app/immutable/assets/HanneswithDotsLight_medium.Dc7B5lKP.avif 340w, /_app/immutable/assets/HanneswithDotsLight_medium.Gk4MBtPO.avif 680w",
+    webp: "/_app/immutable/assets/HanneswithDotsLight_medium.5NZ7y2SA.webp 340w, /_app/immutable/assets/HanneswithDotsLight_medium.8H5RAAnZ.webp 680w",
+    png: "/_app/immutable/assets/HanneswithDotsLight_medium.9JSfRmld.png 340w, /_app/immutable/assets/HanneswithDotsLight_medium.TT4DhKxH.png 680w"
+  },
+  img: {
+    src: "/_app/immutable/assets/HanneswithDotsLight_medium.TT4DhKxH.png",
+    w: 680,
+    h: 680
+  }
+};
 const css$3 = {
   code: "@keyframes svelte-1e1rae9-background{from{background-color:#C2FFEA00}to{background-color:#C2FFEA}}.backgroundFadeIn.svelte-1e1rae9{animation-name:svelte-1e1rae9-background ;animation-duration:1s}",
   map: null
 };
 const LandingScreen = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$3);
-  return `<div class="flex flex-wrap justify-around items-center ml-16 lg:flex-nowrap pt-20" data-svelte-h="svelte-1mfe4vf"><div class="lg:pb-40"><h1>Hannes Scheibelauer</h1> <span>Der kreative Webentwickler 
-        für <span class="text-secondary bg-primary-200 px-2 rounded-md backgroundFadeIn svelte-1e1rae9">deine</span> digitale Erfolgsstory!</span></div> <div class=""><img${add_attribute("src", HanneswithDotsLight_medium, 0)} alt="Hannes Scheibelauer with Web Icons"></div> </div>`;
+  return `<div class="flex flex-wrap justify-around items-center ml-16 lg:flex-nowrap pt-20"><div class="lg:pb-40" data-svelte-h="svelte-1w1t1i4"><h1>Hannes Scheibelauer</h1> <span>Der kreative Webentwickler 
+        für <span class="text-secondary bg-primary-200 px-2 rounded-md backgroundFadeIn svelte-1e1rae9">deine</span> digitale Erfolgsstory!</span></div> <div class="">${typeof HanneswithDotsLight_medium === "string" ? `<img${add_attribute("src", HanneswithDotsLight_medium.img.src, 0)} alt="Hannes Scheibelauer with Web Icons"${add_attribute("width", HanneswithDotsLight_medium.img.w, 0)}${add_attribute("height", HanneswithDotsLight_medium.img.h, 0)}> ` : `<picture>${each(Object.entries(HanneswithDotsLight_medium.sources), ([format, srcset]) => {
+    return `<source${add_attribute("srcset", srcset, 0)}${add_attribute("type", "image/" + format, 0)}>`;
+  })} <img${add_attribute("src", HanneswithDotsLight_medium.img.src, 0)} alt="Hannes Scheibelauer with Web Icons"${add_attribute("width", HanneswithDotsLight_medium.img.w, 0)}${add_attribute("height", HanneswithDotsLight_medium.img.h, 0)}></picture> `}</div> </div>`;
 });
 const css$2 = {
   code: '.blobus.svelte-tn9miu{font-family:"Dosis", sans-serif}',
@@ -44,7 +57,7 @@ const Blob = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div class="relative w-1/3 min-w-80 max-w-96 blobus svelte-tn9miu"><svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="w-full absolute z-10 "><g><path${add_attribute("id", id1, 0)} fill="#47ffbf"${add_attribute("d", path1, 0)} transform="translate(100 100)" class=""></path></g><g><path${add_attribute("id", id2, 0)} fill="#47ffbf"${add_attribute("d", path2, 0)} transform="translate(100 100)" class="hidden "></path></g></svg> <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="w-full relative top-3 left-2 z-0"><g><path${add_attribute("id", id1 + "-bg", 0)} fill="#99ffdb"${add_attribute("d", path1, 0)} transform="translate(100 100)"></path></g><g><path${add_attribute("id", id2 + "-bg", 0)} fill="#99ffdb"${add_attribute("d", path2, 0)} transform="translate(100 100)" class="hidden"></path></g></svg> <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 text-secondary"><div class="lg:text-5xl xl:text-6xl text-5xl">${escape(number)}</div> <div class="lg:text-3xl xl:text-4xl text-2xl font-medium">${escape(description)}</div></div> </div>`;
 });
 const Blobs = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<div class="m-20 -mt-20"><div class="flex flex-wrap justify-around text-center w-full font-bold text-5xl">${validate_component(Blob, "Blob").$$render(
+  return `<div class="m-4 -mt-20"><div class="flex flex-wrap justify-around text-center w-full font-bold text-5xl">${validate_component(Blob, "Blob").$$render(
     $$result,
     {
       number: "2",
@@ -103,12 +116,12 @@ const Question = create_ssr_component(($$result, $$props, $$bindings, slots) => 
   return `<div class="w-full flex justify-center flex-nowrap mx-4"><div class="lg:w-1/2 pb-5"><button class="border-t pt-7 text-4xl font-thin text-gray-200 border-primary-300 flex items-center w-full hover:animate-pulse"><div class="text-start w-5/6">${escape(QuestionText)}</div> <div class="w-5 ml-auto mr-2"><svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185.6 197.18"${add_attribute("class", "w-full transition -rotate-90", 0)}><g id="Ebene_1-2" data-name="Ebene 1"><path fill="#99FFDB" d="M6.63,84.38L167.77,1.37c8.14-4.19,17.83,1.72,17.83,10.87h0c0,4.63-2.61,8.86-6.75,10.93L29.2,98.19v.8l149.65,75.02c4.14,2.07,6.75,6.3,6.75,10.93h0c0,9.15-9.69,15.06-17.83,10.87L6.63,112.8c-4.07-2.1-6.63-6.29-6.63-10.87v-6.69c0-4.58,2.56-8.77,6.63-10.87Z"></path></g></svg></div></button> <div${add_attribute("class", "text-2xl font-light text-gray-300 max-h-0 overflow-hidden transition dropwdown ", 0)}>${slots.default ? slots.default({}) : ``}</div></div> </div>`;
 });
 const css = {
-  code: ".highlighted.svelte-3yqdb1{background-color:#C2FFEA88;border-radius:6px;color:#022034;padding:0px 4px;display:inline}",
+  code: ".highlighted.svelte-173sgav{background-color:#47FFBF44;border-radius:6px;padding:0px 4px;display:inline}",
   map: null
 };
 const Questions = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<div class="bg-secondary w-full h-20 lg:rotate-2 rotate-6 relative"></div>  <div class="-mt-10 w-full flex justify-center flex-wrap bg-secondary -mb-20 py-10 z-10 relative">${validate_component(Question, "Question").$$render(
+  return `<div class="bg-secondary w-full h-20 lg:rotate-2 rotate-6 relative overflow-x-hidden"></div>  <div class="-mt-10 w-full flex justify-center flex-wrap bg-secondary -mb-20 py-10 z-10 relative">${validate_component(Question, "Question").$$render(
     $$result,
     {
       QuestionText: "Wie kann eine Website meinem Unternehmen helfen?"
@@ -116,12 +129,12 @@ const Questions = create_ssr_component(($$result, $$props, $$bindings, slots) =>
     {},
     {
       default: () => {
-        return `Eine Website ist deine digitale <span class="highlighted text-2xl svelte-3yqdb1" data-svelte-h="svelte-1s2f1mn">Visitenkarte im Web</span>. Für Kunden oder Interessenten ist sie die erste Anlaufstelle für Informationen. Ein positiver <span class="highlighted text-2xl svelte-3yqdb1" data-svelte-h="svelte-3yum5y">erster Eindruck</span> ist nicht nur in der realen Welt wichtig, sondern auch in der Digitalen.`;
+        return `Eine Website ist deine digitale <span class="highlighted text-2xl svelte-173sgav" data-svelte-h="svelte-1s2f1mn">Visitenkarte im Web</span>. Für Kunden oder Interessenten ist sie die erste Anlaufstelle für Informationen. Ein positiver <span class="highlighted text-2xl svelte-173sgav" data-svelte-h="svelte-3yum5y">erster Eindruck</span> ist nicht nur in der realen Welt wichtig, sondern auch in der Digitalen.`;
       }
     }
   )} ${validate_component(Question, "Question").$$render($$result, { QuestionText: "Was kostet eine Website?" }, {}, {
     default: () => {
-      return `Die Kosten für eine Website können variieren und sind nicht festgelegt. Für ein Unternehmen mit umfangreichen Anforderungen und Funktionen können die Kosten bei <span class="highlighted text-2xl svelte-3yqdb1" data-svelte-h="svelte-1o8e65n">5000€</span> oder mehr liegen. Hingegen kann eine einfache Website für ein kleines Unternehmen mit grundlegenden Informationen <span class="highlighted text-2xl svelte-3yqdb1" data-svelte-h="svelte-w6zhnw">800€</span>  oder weniger kosten.`;
+      return `Die Kosten für eine Website können variieren und sind nicht festgelegt. Für ein Unternehmen mit umfangreichen Anforderungen und Funktionen können die Kosten bei <span class="highlighted text-2xl svelte-173sgav" data-svelte-h="svelte-1o8e65n">5000€</span> oder mehr liegen. Hingegen kann eine einfache Website für ein kleines Unternehmen mit grundlegenden Informationen <span class="highlighted text-2xl svelte-173sgav" data-svelte-h="svelte-5571h1">700€</span>  oder weniger kosten.`;
     }
   })} ${validate_component(Question, "Question").$$render(
     $$result,
@@ -131,7 +144,7 @@ const Questions = create_ssr_component(($$result, $$props, $$bindings, slots) =>
     {},
     {
       default: () => {
-        return `Die Dauer der Website-Entwicklung ist variabel und hängt von verschiedenen Faktoren ab. Für umfangreiche Projekte mit speziellen Anforderungen kann die Entwicklung <span class="highlighted text-2xl svelte-3yqdb1" data-svelte-h="svelte-1on529c">mehrere Monate</span> in Anspruch nehmen. Hingegen kann eine simpler gestaltete Website für kleine Unternehmen in  <span class="highlighted text-2xl svelte-3yqdb1" data-svelte-h="svelte-1s3abv">wenigen Wochen</span>  erstellt werden.`;
+        return `Die Dauer der Website-Entwicklung ist variabel und hängt von verschiedenen Faktoren ab. Für umfangreiche Projekte mit speziellen Anforderungen kann die Entwicklung <span class="highlighted text-2xl svelte-173sgav" data-svelte-h="svelte-1on529c">mehrere Monate</span> in Anspruch nehmen. Hingegen kann eine simpler gestaltete Website für kleine Unternehmen in  <span class="highlighted text-2xl svelte-173sgav" data-svelte-h="svelte-1s3abv">wenigen Wochen</span>  erstellt werden.`;
       }
     }
   )} ${validate_component(Question, "Question").$$render(
@@ -142,7 +155,7 @@ const Questions = create_ssr_component(($$result, $$props, $$bindings, slots) =>
     {},
     {
       default: () => {
-        return `Natürlich! Nach Absprache mit Ihnen kann ich Updates oder sogar <span class="highlighted text-2xl svelte-3yqdb1" data-svelte-h="svelte-11qc0vm">komplette Neugestaltungen</span> Ihrer Website umsetzen.`;
+        return `Natürlich! Nach Absprache mit Ihnen kann ich Updates oder sogar <span class="highlighted text-2xl svelte-173sgav" data-svelte-h="svelte-11qc0vm">komplette Neugestaltungen</span> Ihrer Website umsetzen.`;
       }
     }
   )} ${validate_component(Question, "Question").$$render(
@@ -153,7 +166,7 @@ const Questions = create_ssr_component(($$result, $$props, $$bindings, slots) =>
     {},
     {
       default: () => {
-        return `Die Hosting-Kosten, um sicherzustellen, dass die Website online abrufbar ist, belaufen sich auf <span class="highlighted text-2xl svelte-3yqdb1" data-svelte-h="svelte-bv9nll">20-40€</span> pro Monat. Websites, die umfangreiche Daten speichern (z.B. Vereinsverwaltung), können aufgrund ihres größeren Umfangs teurer sein. Die Domain-Kosten (z.B. hannes-scheibelauer.at), die dazu kommen, liegen hingegen nur bei <span class="highlighted text-2xl svelte-3yqdb1" data-svelte-h="svelte-gt2d8j">3-10€</span> pro Monat.`;
+        return `Die Hosting-Kosten, um sicherzustellen, dass die Website online abrufbar ist, belaufen sich auf <span class="highlighted text-2xl svelte-173sgav" data-svelte-h="svelte-bv9nll">20-40€</span> pro Monat. Websites, die umfangreiche Daten speichern (z.B. Vereinsverwaltung), können aufgrund ihres größeren Umfangs teurer sein. Die Domain-Kosten (z.B. hannes-scheibelauer.at), die dazu kommen, liegen hingegen nur bei <span class="highlighted text-2xl svelte-173sgav" data-svelte-h="svelte-gt2d8j">3-10€</span> pro Monat.`;
       }
     }
   )} ${validate_component(Question, "Question").$$render(
@@ -164,7 +177,7 @@ const Questions = create_ssr_component(($$result, $$props, $$bindings, slots) =>
     {},
     {
       default: () => {
-        return `Ja, nach Bedarf kannst du deine eigene E-Mail für <span class="highlighted text-2xl svelte-3yqdb1" data-svelte-h="svelte-19pziz8">2,99€</span> pro Monat pro Nutzer erhalten.`;
+        return `Ja, nach Bedarf kannst du deine eigene E-Mail für <span class="highlighted text-2xl svelte-173sgav" data-svelte-h="svelte-19pziz8">2,99€</span> pro Monat pro Nutzer erhalten.`;
       }
     }
   )} ${validate_component(Question, "Question").$$render(
@@ -175,7 +188,7 @@ const Questions = create_ssr_component(($$result, $$props, $$bindings, slots) =>
     {},
     {
       default: () => {
-        return `Ja, auf Wunsch erstelle ich ein <span class="highlighted text-2xl  svelte-3yqdb1" data-svelte-h="svelte-156lkc7">Content Management System (CMS)</span> mit dem Sie einfach Texte und Bilder selbst bearbeiten können.`;
+        return `Ja, auf Wunsch erstelle ich ein <span class="highlighted text-2xl  svelte-173sgav" data-svelte-h="svelte-156lkc7">Content Management System (CMS)</span> mit dem Sie einfach Texte und Bilder selbst bearbeiten können.`;
       }
     }
   )} </div>`;

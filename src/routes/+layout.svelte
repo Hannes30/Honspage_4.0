@@ -27,7 +27,7 @@
     content="Portfolio Seite von Hannes Scheibelauer, ein Web Developer aus Niederösterreich"
    />  <meta
     name="keywords"
-    content="Hannes Scheibelauer, Scheibelauer, Website Erstellen, Web Developer, Webdesign Mostviertel, Wieselburg Webentwicklung, Responsive Webseiten, Niederösterreich Webdesign, Online-Präsenz gestalten, SEO-optimierte Webseiten, Maßgeschneiderte Websites, E-Commerce Lösungen, Lokale Unternehmenswebseiten, Webentwickler Dienstleistungen, Content-Management-Systeme, Web-Branding, Grafikdesign für Webseiten, Nutzerfreundliches Design, Mobile-optimierte Seiten, Online-Marketing, Social-Media-Integration, Blog-Integration, Webseiten-Wartung"
+    content="Website Erstellen, Webseite kaufen, Homepage erstellen, Webdesign Mostviertel, Wieselburg Webentwicklung, Responsive Webseiten, Niederösterreich Webdesign, Online-Präsenz gestalten, Lokale Unternehmenswebseiten, Webentwickler Dienstleistungen, Grafikdesign für Webseiten, Nutzerfreundliches Design, Mobile-optimierte Seiten, Online-Marketing, Social-Media-Integration,Webseiten-Wartung"
     />  
 
   <meta name="robots" content="index, follow"   />  

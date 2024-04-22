@@ -1,4 +1,4 @@
-import { c as create_ssr_component, e as escape, v as validate_component, b as each, a as add_attribute } from "../../../../chunks/ssr.js";
+import { c as create_ssr_component, b as escape, v as validate_component, e as each, a as add_attribute } from "../../../../chunks/ssr.js";
 import { N as Nav } from "../../../../chunks/Nav.js";
 import { W as Waves } from "../../../../chunks/Waves.js";
 const ProjectTag = create_ssr_component(($$result, $$props, $$bindings, slots) => {

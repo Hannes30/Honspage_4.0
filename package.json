@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postbuild": "npx svelte-sitemap --domain https://hannes-scheibelauer.at/"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^3.0.0",
@@ -22,6 +23,7 @@
   },
   "type": "module",
   "dependencies": {
-    "kute.js": "^2.2.4"
+    "kute.js": "^2.2.4",
+    "sveltekit-sitemap": "^1.0.21"
   }
 }
