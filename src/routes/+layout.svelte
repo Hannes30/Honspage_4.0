@@ -41,22 +41,12 @@
   <meta
     property="og:image"
     content="https://hannes-scheibelauer.at/logo.png" />
-  <script
-    dangerouslySetInnerHTML={{
-      __html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-K998ZW4KVZ');
-      `,
-    }}
-  ></script>
   </svelte:head>
   <div class="body bg-black"> 
     {#if showModal}
 <ContactForm {closeContactModal} />
 {/if}
-     <div> <slot/></div>
+     <div> <slot/>  </div>
      <Footer></Footer>
   </div>
 

@@ -6,8 +6,6 @@
   import CallToAction from "../lib/components/CallToAction.svelte";
   import Questions from "../lib/components/Questions.svelte";
 
-
-
 </script>
 <svelte:head>
 	<title>Home - Hannes Scheibelauer</title>
@@ -27,11 +25,4 @@
 
 </div>
 <style>
-  .highlightedSpan{
-    background-color:#99FFDB ;
-    border-radius: 6px;
-    color: #022034;
-    padding: 0px 4px;
-    display: inline;
-  }
 </style>
