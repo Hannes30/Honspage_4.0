@@ -1,6 +1,5 @@
 <script>
   
-  import { animate } from "motion";
   import { onMount } from "svelte";
 
   export let path1;

@@ -1,6 +1,4 @@
 <script>
-  import { onMount } from "svelte";
-  import { fly } from 'svelte/transition'
   import Blob from "./Blob.svelte";
 
 
