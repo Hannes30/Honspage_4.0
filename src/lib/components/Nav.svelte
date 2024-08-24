@@ -60,7 +60,6 @@
   <div class="lg:w-1/3 sm:w-2/3 flex justify-around">
     <NavComponent href="/" active={active == 1} aria-label="Back to Home">Home</NavComponent>
     <NavComponent href="/projects" active={active == 2}> Projekte </NavComponent>
-    <NavComponent href="/services" active={active == 3}> Leistungen </NavComponent>
   </div>
   
   <button class="bg-primary-400 rounded-md text-secondary lg:px-4 lg:py-1 px-2 font-semibold relative top-0 hover:-top-0.5 duration-300 button"  on:click={openContactModal}>Kontakt</button>
