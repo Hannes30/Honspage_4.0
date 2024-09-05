@@ -3,7 +3,7 @@
 
 
 
-<footer class="mt-20 bg-primary-400 text-secondary p-5">
+<footer class="mt-20 bg-primary-400 text-secondary-700 p-5">
     <div class="text-2xl font-medium text-center sm:text-3xl">© Hannes Scheibelauer</div>
     <div class="flex justify-around">
         <div class="text-l sm:leading-loose sm:text-xl leading-7"> <div class="text-3xl font-medium leading-tight"> Contact </div><p class="py-2">Hannes Scheibelauer</p> <p class="py-2">kontakt@hannes-scheibelauer.at

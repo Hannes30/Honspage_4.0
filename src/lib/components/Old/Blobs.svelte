@@ -1,5 +1,5 @@
 <script>
-  import Blob from "./Blob.svelte";
+  import Blob from "./Old/Blob.svelte";
 
 
 </script>

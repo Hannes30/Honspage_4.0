@@ -5,7 +5,7 @@ export let closeContactModal;
 
 </script>
 <div class="flex justify-center inset-0 items-center z-50 fixed w-full h-full bg-black bg-opacity-70" >
-    <div class="w-min lg:w-max relative bg-secondary border border-white rounded-md p-10" in:fly={{ y: -200, duration: 500 }} out:fly={{ y: 200, duration: 500 }}>
+    <div class="w-min lg:w-max relative bg-secondary-700 border border-white rounded-md p-10" in:fly={{ y: -200, duration: 500 }} out:fly={{ y: 200, duration: 500 }}>
         <h1 class="text-5xl pb-3">Kontaktiere mich</h1>
         <p class="inline"> <PhoneOutline class="h-8 w-8 text-primary-400 inline"/> 0670 2018717</p>
         <p> <a href="mailto:Kontakt@hannes-scheibelauer.at"> <EnvelopeSolid class="h-8 w-8 inline text-primary-400"/> Kontakt@hannes-scheibelauer.at</a></p>

@@ -52,7 +52,7 @@
   <ContactForm {closeContactModal} />
 {/if}
 
-<nav class={"flex justify-around items-center lg:mr-4 sm:mr-1 fixed w-full z-40 lg:p-4 py-4 rounded-md bg-opacity-50 duration-500" + (isNavbarAtTop ? "" : " bg-secondary")}>
+<nav class={"flex justify-around items-center fixed z-40 lg:p-4 pr-0 py-4 rounded-md bg-opacity-50 duration-500 w-[calc(100vw-(100vw-100%))]" + (isNavbarAtTop ? "" : " bg-secondary-700")}>
   <div class="bg-stone-500 text-3xl font-normal flex flex-nowrap items-center justify-around sm:block hidden">
     <a href="/"><span class="ml-4 font-bold ">Hannes Scheibelauer</span></a>
   </div>
@@ -62,7 +62,7 @@
     <NavComponent href="/projects" active={active == 2}> Projekte </NavComponent>
   </div>
   
-  <button class="bg-primary-400 rounded-md text-secondary lg:px-4 lg:py-1 px-2 font-semibold relative top-0 hover:-top-0.5 duration-300 button"  on:click={openContactModal}>Kontakt</button>
+  <button class="bg-primary-400 rounded-md text-secondary-700 lg:px-4 lg:py-1 px-2 font-semibold relative top-0 hover:-top-0.5 duration-300 button"  on:click={openContactModal}>Kontakt</button>
 </nav>
 <style>
 .button{

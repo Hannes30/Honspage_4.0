@@ -13,7 +13,7 @@
 </script>
 
 
-<div class="border border-primary-400 rounded-md p-10 xl:w-1/4 w-96 bg-secondary h-min mb-2 lg:m-0 m-4">
+<div class="border border-primary-400 rounded-md p-10 xl:w-1/4 w-96 bg-secondary-700 h-min mb-2 lg:m-0 m-4">
     <h2 class=" text-4xl w-full text-center py-2">{name}</h2>
     <div class="w-full text-center  text-4xl font-bold text-primary-400 py-3">€{price}  <slot></slot></div>
     <div class="text-center flex flex-wrap py-2">

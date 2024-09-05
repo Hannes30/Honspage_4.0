@@ -22,8 +22,8 @@
         <div class="w-full mt-5 "><Waves headingText="Die" headingTextHighlighted="Lösung">{data.problemText}</Waves></div>
 
        <div class="p-10 lg:p-16"> <h2 class="w-full">Umsetzung</h2> <span class="lg:text-2xl lg:mt-16 text-lg"> {data.solvingText}</span></div>
-      <div class="overflow-hidden"> <div class="bg-secondary w-full h-20 lg:rotate-2 rotate-6 relative top-10"></div></div> <!-- Seperator-->
-      <div class="bg-secondary -mb-20 pb-10 flex justify-center flex-wrap">
+      <div class="overflow-hidden"> <div class="bg-secondary-700 w-full h-20 lg:rotate-2 rotate-6 relative top-10"></div></div> <!-- Seperator-->
+      <div class="bg-secondary-700 -mb-20 pb-10 flex justify-center flex-wrap">
         <div class="lg:p-16 p-10"><h2 class="w-full ">Ergebnis</h2> <span class="lg:text-2xl lg:mt-16 text-lg ">  {data.resultText}</span></div>
         <a href={data.link} class="text-3xl text-primary-400 underline hover:animate-pulse w-full text-center m-5 font-semibold">{data.name}</a>
        </div>

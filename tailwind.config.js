@@ -25,7 +25,10 @@ export default {
         800: "#00A36A",
         900: "#007A50",
       },
-      secondary: "#022034",
+      secondary: {
+        300: "#4ac0dd",
+        700: "#022034",
+      },
     },
   },
   plugins: [],
