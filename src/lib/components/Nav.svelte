@@ -53,7 +53,7 @@
 {/if}
 
 <nav class={"flex justify-around items-center fixed z-40 lg:p-4 pr-0 py-4 rounded-md bg-opacity-50 duration-500 w-[calc(100vw-(100vw-100%))]" + (isNavbarAtTop ? "" : " bg-secondary-700")}>
-  <div class="bg-stone-500 text-3xl font-normal flex flex-nowrap items-center justify-around sm:block hidden">
+  <div class="bg-stone-500 text-3xl font-normal flex flex-nowrap items-center justify-">
     <a href="/"><span class="ml-4 font-bold ">Hannes Scheibelauer</span></a>
   </div>
 
