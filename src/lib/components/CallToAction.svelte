@@ -11,12 +11,17 @@
 
 </script>
 <div class="p-10 pt-20 flex flex-wrap justify-center">
-  <span class="w-full text-center text-5xl font-medium text-white ">Ein Erstgespräch ist Kostenfrei</span>
-<button on:click={openContactModal} class="button bg-primary-400  rounded-md text-secondary-700 px-10 py-4 text-3xl font-medium m-10 relative top-0 hover:-top-1 duration-300">Kontaktiere mich</button>
+  <span class="w-full text-center lg:text-7xl font-medium text-white text-5xl CTAText">Ein Erstgespräch ist Kostenfrei</span>
+<button on:click={openContactModal} class="button bg-primary-400  rounded-md text-secondary-700 px-10 py-4 text-3xl font-bold m-10 relative top-0 hover:-top-1 duration-300">Kontaktiere mich</button>
 </div>
 <style>
   
 .button{
   text-shadow: 2px 2px #fff;
+}
+.CTAText{
+    background: -webkit-linear-gradient(45deg,#62bdf9,#02cb8b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 </style>

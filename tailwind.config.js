@@ -2,6 +2,7 @@ const colors = require("tailwindcss/colors");
 
 /** @type {import('tailwindcss').Config} */
 export default {
+  mode: "jit",
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
     extend: { fontFamily: { sans: ["Inter var"] } },
