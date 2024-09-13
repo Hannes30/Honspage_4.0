@@ -15,16 +15,17 @@ h1 {
   font-weight: 600;
 }
 h2 {
-  font-size: 36px;
-  font-weight: 600;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+  background: -webkit-linear-gradient(45deg, #5cbdf2, #0fc899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 @media only screen and (min-width: 1024px) {
   h1 {
     font-size: 64px;
-    font-weight: 600;
-  }
-  h2 {
-    font-size: 48px;
     font-weight: 600;
   }
 }

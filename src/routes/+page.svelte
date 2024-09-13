@@ -5,6 +5,7 @@
   import Questions from "../lib/components/Questions.svelte";
   import Wave from "../lib/components/Wave.svelte";
   import FirstCtaText from "../lib/components/FirstCTAText.svelte";
+  import MyOffersSection from "../lib/components/MyOffersSection.svelte";
   
 
 </script>
@@ -15,11 +16,14 @@
 
 <Nav active=1></Nav>
 <LandingScreen />
-  <div class="relative top-[-80px]">
-  <Wave />
+  <div class="relative top-[-20px] pb-5">
+  <div class="overflow-hidden">
+    <div class="bg-secondary-700 -rotate-1 h-12 w-screen relative top-5"></div>
+  </div>
     <div class=" bg-secondary-700">
       <FirstCtaText></FirstCtaText>
       <CallToAction></CallToAction>
+      <MyOffersSection></MyOffersSection>
       <Questions></Questions>
     </div>
   </div>

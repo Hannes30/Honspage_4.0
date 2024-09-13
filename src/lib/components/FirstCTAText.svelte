@@ -12,7 +12,7 @@
     .twoThirdText{
         line-height: 30vw;
     font-size: 20vw;
-    background: -webkit-linear-gradient(45deg,#3bc3cc,#29c5b7);
+    background: -webkit-linear-gradient(45deg,#3bc3cc,#18c9a3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     }
