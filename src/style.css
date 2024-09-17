@@ -5,6 +5,7 @@ html {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-kerning: normal;
+  scroll-behavior: smooth;
 }
 span {
   font-size: 36px;

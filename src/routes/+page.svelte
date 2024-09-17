@@ -6,6 +6,7 @@
   import Wave from "../lib/components/Wave.svelte";
   import FirstCtaText from "../lib/components/FirstCTAText.svelte";
   import MyOffersSection from "../lib/components/MyOffersSection.svelte";
+  import HowIdDoItSection from "../lib/components/HowIdDoItSection.svelte";
   
 
 </script>
@@ -22,9 +23,11 @@
   </div>
     <div class=" bg-secondary-700">
       <FirstCtaText></FirstCtaText>
-      <CallToAction></CallToAction>
+      <CallToAction id="offerings"></CallToAction>
       <MyOffersSection></MyOffersSection>
+      <HowIdDoItSection></HowIdDoItSection>
       <Questions></Questions>
+      
     </div>
   </div>
 </div>

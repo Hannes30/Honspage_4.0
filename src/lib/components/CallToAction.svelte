@@ -1,5 +1,6 @@
 <script>
  import showModalStore from '$lib/store/modalStore';
+ export let id; 
 
   function openContactModal() {
     showModalStore.set(true);
@@ -12,7 +13,7 @@
 </script>
 <div class="p-10 pt-20 flex flex-wrap justify-center">
   <span class="w-full text-center lg:text-7xl font-medium text-white text-5xl CTAText">Ein Erstgespräch ist Kostenfrei</span>
-<button on:click={openContactModal} class="button bg-primary-400  rounded-md text-secondary-700 px-10 py-4 text-3xl font-bold m-10 relative top-0 hover:-top-1 duration-300">Kontaktiere mich</button>
+<button on:click={openContactModal} class="button bg-primary-400  rounded-md text-secondary-700 px-10 py-4  text-2xl lg:text-3xl font-bold m-10 relative top-0 hover:-top-1 duration-300" id={id}>Kontaktiere mich</button>
 </div>
 <style>
   

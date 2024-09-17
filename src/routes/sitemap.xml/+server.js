@@ -8,24 +8,11 @@ export async function GET() {
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>http://hannes-scheibelauer.at/projects</loc>
+        <loc>http://hannes-scheibelauer.at/impressum</loc>
         <lastmod>2024-04-20</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.1</priority>
     </url>
-    <url>
-        <loc>http://hannes-scheibelauer.at/services</loc>
-        <lastmod>2024-04-21</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>http://hannes-scheibelauer.at/impressum</loc>
-        <lastmod>2024-03-15</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
             </urlset>`.trim(),
     { headers: { "Content-Type": "application/xml" } }
   );

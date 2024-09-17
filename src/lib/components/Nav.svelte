@@ -52,17 +52,19 @@
   <ContactForm {closeContactModal} />
 {/if}
 
-<nav class={"flex justify-around items-center fixed z-40 lg:p-4 pr-0 py-4 rounded-md bg-opacity-50 duration-500 w-[calc(100vw-(100vw-100%))]" + (isNavbarAtTop ? "" : " bg-secondary-700")}>
-  <div class="bg-stone-500 text-3xl font-normal flex flex-nowrap items-center justify-">
-    <a href="/"><span class="ml-4 font-bold ">Hannes Scheibelauer</span></a>
+<nav class={"flex justify-around items-center fixed z-40  p-4 py-4 rounded-md bg-opacity-50 duration-500 w-[calc(100vw-(100vw-100%))] gap-5" + (isNavbarAtTop ? "" : " bg-secondary-700")}>
+  <div class="bg-stone-500  font-normal flex flex-nowrap items-center justify-center lg:py-2">
+    <a href="/"><span class="ml-4 font-bold text-2xl sm:text-3xl lg:text-5xl">Hannes Scheibelauer</span></a>
   </div>
 
   <div class="lg:w-1/3 sm:w-2/3 flex justify-around">
-    <NavComponent href="/" active={active == 1} aria-label="Back to Home">Home</NavComponent>
-    <NavComponent href="/projects" active={active == 2}> Projekte </NavComponent>
+    <NavComponent href="/" aria-label="Back to Home">Home</NavComponent>
+    <NavComponent href="/#offerings" > Leistungen </NavComponent>
+    <NavComponent href="/#career" > Karriere </NavComponent>
+    <NavComponent href="/#qa" > Q&A </NavComponent>
   </div>
   
-  <button class="bg-primary-400 rounded-md text-secondary-700 lg:px-4 lg:py-1 px-2 font-semibold relative top-0 hover:-top-0.5 duration-300 button"  on:click={openContactModal}>Kontakt</button>
+  <button class="bg-primary-400 rounded-md text-secondary-700 lg:px-4 lg:py-1 px-2 font-semibold relative top-0 hover:-top-0.5 duration-300 button sm:text-xl lg:text-2xl"   on:click={openContactModal}>Kontakt</button>
 </nav>
 <style>
 .button{
