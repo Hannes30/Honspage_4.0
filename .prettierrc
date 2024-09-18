@@ -1,0 +1,8 @@
+{
+    "plugins": ["prettier-plugin-svelte"],
+    "semi": false,
+    "singleQuote": true,
+    "svelteStrictMode": false,
+    "svelteBracketNewLine": true
+  }
+  
