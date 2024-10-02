@@ -1,30 +1,24 @@
 <script>
-  export let Title
-  export let Text
+  export let title
+  export let text
   export let width
   export let svg
 </script>
 
-<div>
-  <div>
-    <svg
-      width="57"
-      height="53"
-      viewBox="0 0 57 53"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
+<div
+  class=" flex flex-col rounded-md border-primary-300 items-center justify-center border px-5 py-5 bg-primary-500 bg-opacity-20 gap-2 {width}"
+>
+  <div class=" flex md:flex-row justify-around gap-3 flex-col items-center">
+    <div class="p-4 bg-black bg-opacity-10 rounded-full w-16 text-primary-200">
+      <img src={svg} alt={'icon for' + title} />
+    </div>
+
+    <span
+      class="flex justify-center items-center md:text-5xl text-3xl text-center"
+      >{title}</span
     >
-      <path
-        d="M50.8437 17.3414C53.2379 18.0869 54.9062 20.3024 54.9062 22.846V34.0968C54.9062 37.0788 52.6123 39.6093 49.5437 39.8534C48.6229 39.9243 47.7021 39.9899 46.7812 40.0424V48.1563L38.6562 40.2813C34.9892 40.2813 31.36 40.1369 27.7687 39.8534C26.9869 39.7921 26.2264 39.5759 25.5344 39.2181M50.8437 17.3414C50.4253 17.2108 49.9927 17.1272 49.5546 17.092C42.3015 16.5084 35.011 16.5084 27.7579 17.092C24.6948 17.3388 22.4062 19.8666 22.4062 22.846V34.0968C22.4062 36.2939 23.6521 38.2443 25.5344 39.2181M50.8437 17.3414V12.4221C50.8437 8.167 47.7237 4.47888 43.3687 3.93025C37.7647 3.22621 32.1196 2.87372 26.4687 2.875C20.7406 2.875 15.0992 3.23463 9.56875 3.93025C5.21375 4.47888 2.09375 8.167 2.09375 12.4221V28.7654C2.09375 33.0205 5.21375 36.7086 9.56875 37.2573C11.1315 37.4541 12.7023 37.6248 14.2812 37.7665V50.125L25.5344 39.2181"
-        stroke="#70FFCD"
-        stroke-width="4"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </svg>
-    <span>{Title}</span>
   </div>
-  <div>
-    {Text}
+  <div class="text-center text-sm md:text-lg">
+    {text}
   </div>
 </div>
