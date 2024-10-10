@@ -40,7 +40,7 @@
 </script>
 
 <div class="w-full flex flex-col justify-center mt-8 items-center pb-20">
-  <div class="md:w-1/2 w-5/6">
+  <div class="md:w-2/3 w-5/6">
     <h3 class="text-center text-xl lg:text-3xl font-black pb-6">
       ich mache ...
     </h3>
