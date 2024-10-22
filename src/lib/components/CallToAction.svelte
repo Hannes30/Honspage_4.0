@@ -1,9 +1,8 @@
 <script>
   import { onMount } from 'svelte'
-  import { fly } from 'svelte/transition'
   import showModalStore from '$lib/store/modalStore'
   export let id
-  import { animate } from "motion"
+  import { animate, inView } from 'motion'
 
   let isVisible = false
 
@@ -11,33 +10,35 @@
     showModalStore.set(true)
     document.body.style.overflow = 'hidden'
   }
-  onMount(()=>{
-    inView(".CTAWraper", (info) => {
+  onMount(() => {
+    inView('.CTAWraper', (info) => {
+      console.log(info)
       animate(
-    info.target,
-    { opacity: 1, transform: "none" },
-    { delay: 0.2, duration: 0.9, easing: [0.17, 0.55, 0.55, 1] }
-  );
-})
+        info.target,
+        {
+          opacity: [0, 1],
+          transform: ['translateY(100px)', 'translateY(0)'],
+        },
+        { delay: 0.3, duration: 0.5 },
+      )
+    })
   })
 </script>
 
-  <div
-    class="fly-in-component p-10 pt-20 flex flex-wrap justify-center gap-10 mb-10 CTAWraper"
+<div class=" p-10 pt-20 flex flex-wrap justify-center gap-10 mb-10 CTAWraper">
+  <span
+    class="w-full text-center lg:text-7xl font-medium text-white text-5xl CTAText"
   >
-    <span
-      class="w-full text-center lg:text-7xl font-medium text-white text-5xl CTAText"
-    >
-      Ein Erstgespräch ist kostenfrei
-    </span>
-    <button
-      on:click={openContactModal}
-      class="button bg-primary-400 rounded-md text-secondary-700 px-10 py-4 lg:py-6 lg:px-15 text-2xl lg:text-4xl font-bold m-10 mt-3 relative top-0 hover:-top-1 duration-300 CTAButton"
-      {id}
-    >
-      Kontaktiere mich
-    </button>
-  </div>
+    Ein Erstgespräch ist kostenfrei
+  </span>
+  <button
+    on:click={openContactModal}
+    class="button bg-primary-400 rounded-md text-secondary-700 px-10 py-4 lg:py-6 lg:px-15 text-2xl lg:text-4xl font-bold m-10 mt-3 relative top-0 hover:-top-1 duration-300 CTAButton"
+    {id}
+  >
+    Kontaktiere mich
+  </button>
+</div>
 
 <style>
   .button {

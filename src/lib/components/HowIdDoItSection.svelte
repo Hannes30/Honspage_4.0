@@ -6,6 +6,8 @@
   import seoSVG from '$lib/img/HIDI/seo.svg?enhanced'
   import upToDateSVG from '$lib/img/HIDI/upToDate.svg?enhanced'
   import supportSVG from '$lib/img/HIDI/support.svg?enhanced'
+  import { animate, inView } from 'motion'
+  import { onMount } from 'svelte'
 
   let data = [
     {
@@ -53,12 +55,24 @@
     }
     return array
   }
-
   data = shuffleArray(data)
+
+  onMount(() => {
+    inView('.HDISHeading', (info) => {
+      animate(
+        info.target,
+        {
+          opacity: [0, 1],
+          transform: ['translateX(-100px)', 'translateX(0)'],
+        },
+        { delay: 0.3, duration: 0.5 },
+      )
+    })
+  })
 </script>
 
 <div class="flex justify-center flex-col items-center">
-  <h3 class="text-center text-xl lg:text-3xl font-black pb-6">
+  <h3 class="text-center text-xl lg:text-3xl font-black pb-10 HDISHeading">
     Mein Erfolgsrezept
   </h3>
   <div class="flex justify-center flex-wrap gap-8 w-11/12">

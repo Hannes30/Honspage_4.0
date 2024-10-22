@@ -1,6 +1,7 @@
 <script>
   import OfferingsButton from './OfferingsButton.svelte'
   import { onMount } from 'svelte'
+  import { animate, inView } from 'motion'
   let activeOffer = 0
   let offers = [
     {
@@ -36,27 +37,61 @@
 
   onMount(() => {
     setFixedHeight()
+    inView('.ido', (info) => {
+      animate(
+        info.target,
+        {
+          opacity: [0, 1],
+          transform: ['translateX(-100px)', 'translateX(0)'],
+        },
+        { delay: 0.3, duration: 0.5 },
+      )
+      animate(
+        '.idoTitle',
+        {
+          opacity: [0, 1],
+          transform: ['translateY(100px)', 'translateY(0)'],
+        },
+        { delay: 0.4, duration: 0.5 },
+      )
+      animate(
+        '.idoText',
+        {
+          opacity: [0, 1],
+          transform: ['translateY(100px)', 'translateY(0)'],
+        },
+        { delay: 0.5, duration: 0.5 },
+      )
+      animate(
+        '.buttons',
+        {
+          opacity: [0, 1],
+          transform: ['translateY(100px)', 'translateY(0)'],
+        },
+        { delay: 0.8, duration: 0.5 },
+      )
+    })
   })
 </script>
 
 <div class="w-full flex flex-col justify-center mt-8 items-center pb-20">
   <div class="md:w-2/3 w-5/6">
-    <h3 class="text-center text-xl lg:text-3xl font-black pb-6">
+    <h3 class="text-center text-xl lg:text-3xl font-black pb-6 ido">
       ich mache ...
     </h3>
     <h2
-      class="text-center text-5xl lg:text-8xl font-medium mt-4 text-primary-200"
+      class="text-center text-5xl lg:text-8xl font-medium mt-4 text-primary-200 idoTitle"
     >
       {offers[activeOffer].title}
     </h2>
     <div
       bind:this={textContainer}
-      class="text-center md:text-3xl text-xl font-semibold text-gray-300 mt-3"
+      class="text-center md:text-3xl text-xl font-semibold text-gray-300 mt-3 idoText"
       style="height: {fixedHeight}; overflow: hidden;"
     >
       {offers[activeOffer].text}
     </div>
-    <div class="flex flex-wrap justify-center mt-12 gap-4">
+    <div class="flex flex-wrap justify-center mt-12 gap-4 buttons">
       {#each offers as { title }, index}
         <OfferingsButton {index} {title} {changeActiveOffer} {activeOffer} />
       {/each}
