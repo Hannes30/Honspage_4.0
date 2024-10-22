@@ -21,7 +21,7 @@
 </script>
 
 <div
-  class="HDIC flex flex-col rounded-md border-primary-300 items-center justify-between border px-5 py-5 bg-primary-500 bg-opacity-20 gap-2 {width} h-min"
+  class="HDIC flex flex-col rounded-md border-primary-300 items-center justify-center border px-5 py-5 bg-primary-500 bg-opacity-20 gap-5 {width}"
 >
   <div
     class=" flex md:flex-row justify-between gap-5 flex-col items-center min-w-min"
