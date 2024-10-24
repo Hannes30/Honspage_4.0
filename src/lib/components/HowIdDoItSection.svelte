@@ -12,37 +12,37 @@
   let data = [
     {
       title: 'Kommunikation',
-      text: 'Eine offene und klare Kommunikation ist der Schlüssel zu einer erfolgreichen Zusammenarbeit. Ich lege großen Wert darauf, alle Anforderungen und Wünsche meiner Kunden zu verstehen, um maßgeschneiderte Lösungen zu entwickeln. Gemeinsam schaffen wir eine Plattform, die alle Erwartungen übertrifft. Diese Kommunikation ermöglicht es uns, den Prozess transparent zu gestalten und Vertrauen aufzubauen.',
+      text: 'Offene Kommunikation ist der Schlüssel. Ich verstehe deine Anforderungen und entwickle Lösungen, die überzeugen.',
       svgPath: communicationSVG,
       width: 'w-5/12',
     },
     {
       title: 'Zusammenarbeit',
-      text: 'Der Erfolg einer Website basiert auf einem starken Teamgeist. Durch enge Zusammenarbeit mit meinen Kunden und regelmäßige Feedbackschleifen stelle ich sicher, dass jeder Schritt in die richtige Richtung geht. Gemeinsam verwandeln wir Ideen in beeindruckende digitale Erlebnisse. Die Koordination und das Engagement aller Beteiligten sind entscheidend, um optimale Ergebnisse zu erzielen.',
+      text: 'Gemeinsam schaffen wir beeindruckende Ergebnisse durch enge Zusammenarbeit und kontinuierliches Feedback.',
       svgPath: ZusammenarbeitSVG,
       width: 'w-5/12',
     },
     {
       title: 'SEO',
-      text: 'Sichtbarkeit ist entscheidend. Mit modernsten SEO-Strategien optimiere ich deine Website, damit sie nicht nur gefunden wird, sondern auch in den Suchergebnissen an erster Stelle steht. Mein Ziel ist es, dir zu helfen, die richtigen Kunden zu erreichen und dein Geschäft nachhaltig zu fördern. Dies umfasst sowohl On-Page- als auch Off-Page-Optimierung, um sicherzustellen, dass deine Website relevant bleibt.',
+      text: 'Mit modernem SEO optimiere ich deine Website für maximale Sichtbarkeit und nachhaltigen Erfolg.',
       svgPath: seoSVG,
       width: 'w-4/12',
     },
     {
       title: 'Up To Date',
-      text: 'Die digitale Welt entwickelt sich ständig weiter. Deshalb halte ich meine Kenntnisse immer auf dem neuesten Stand, um sicherzustellen, dass deine Website mit den neuesten Trends und Technologien kompatibel ist. So bleibt dein Online-Auftritt frisch und ansprechend.',
+      text: 'Ich halte deine Website immer auf dem neuesten Stand, damit sie mit aktuellen Trends Schritt hält.',
       svgPath: upToDateSVG,
       width: 'w-3/12',
     },
     {
       title: 'Support',
-      text: 'Auch nach der Fertigstellung deiner Website stehe ich dir mit Rat und Tat zur Seite. Regelmäßige Wartung und Updates sind wichtig, um die Sicherheit und Funktionalität deiner Website zu gewährleisten. Dein Erfolg ist mein Ziel, und ich bin da, um dich auf diesem Weg zu begleiten. Ob technische Unterstützung oder Inhaltspflege, ich bin für dich da, um langfristige Lösungen zu schaffen.',
+      text: 'Ich unterstütze dich auch nach dem Launch mit Wartung, Updates und technischer Hilfe.',
       svgPath: supportSVG,
       width: 'w-4/12',
     },
     {
       title: 'Expertise',
-      text: 'Mit jahrelanger Erfahrung in der Webentwicklung bringe ich das notwendige Fachwissen mit, um auch komplexe Anforderungen erfolgreich umzusetzen. ',
+      text: 'Mit jahrelanger Erfahrung setze ich auch komplexe Projekte erfolgreich um.',
       svgPath: expertSVG,
       width: 'w-3/12',
     },
