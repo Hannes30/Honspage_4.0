@@ -1,8 +1,22 @@
-<!DOCTYPE html>
+<script>
+  onMount(() => {
+    window._mfq = window._mfq || []
+    ;(function () {
+      var mf = document.createElement('script')
+      mf.type = 'text/javascript'
+      mf.defer = true
+      mf.src =
+        '//cdn.mouseflow.com/projects/776c0027-44a5-48e7-8b19-a86e2b9fb735.js'
+      document.getElementsByTagName('head')[0].appendChild(mf)
+    })()
+  })
+</script>
+
+<!doctype html>
 <html lang="en">
   <head>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+      @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
     </style>
 
     <meta charset="utf-8" />
@@ -12,13 +26,13 @@
       src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"
     ></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || []
       function gtag() {
-        dataLayer.push(arguments);
+        dataLayer.push(arguments)
       }
-      gtag("js", new Date());
+      gtag('js', new Date())
 
-      gtag("config", "G-K998ZW4KVZ");
+      gtag('config', 'G-K998ZW4KVZ')
     </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
