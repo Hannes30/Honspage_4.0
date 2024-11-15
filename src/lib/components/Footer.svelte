@@ -1,4 +1,5 @@
 <script>
+  import { onMount } from 'svelte'
   onMount(() => {
     window._mfq = window._mfq || []
     ;(function () {

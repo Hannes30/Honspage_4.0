@@ -1,7 +1,7 @@
 <div class=" flex flex-wrap justify-center">
   <div class="w-2/3 text-center flex flex-col lg:mb-24">
-    <span class="w-100 twoThirdText font-bold lg:text-[18vw] text-9xl"
-      >2/3
+    <span class="w-100 twoThirdText font-bold lg:text-[18vw] text-9xl pt-2">
+      2/3
     </span>
     <span class="secondaryText font-bold lg:text-8xl"
       >Aller Firmen sind im Web, warum Sie nicht?</span

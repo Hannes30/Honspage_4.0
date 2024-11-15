@@ -12,7 +12,6 @@
   }
   onMount(() => {
     inView('.CTAWraper', (info) => {
-      console.log(info)
       animate(
         info.target,
         {

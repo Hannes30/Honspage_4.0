@@ -7,6 +7,7 @@
   import FirstCtaText from '../lib/components/FirstCTAText.svelte'
   import MyOffersSection from '../lib/components/MyOffersSection.svelte'
   import HowIdDoItSection from '../lib/components/HowIdDoItSection.svelte'
+  import Career from '../lib/components/Career.svelte'
 </script>
 
 <svelte:head>
@@ -26,6 +27,8 @@
       <CallToAction id="offerings"></CallToAction>
       <MyOffersSection></MyOffersSection>
       <HowIdDoItSection></HowIdDoItSection>
+      <Career></Career>
+
       <Questions></Questions>
     </div>
     <div
