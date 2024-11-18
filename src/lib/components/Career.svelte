@@ -4,24 +4,46 @@
   import EmptyFlyIn from './EmptyFlyIn.svelte'
 
   onMount(() => {
-    window.addEventListener('scroll', () => 'scrolled')
+    const careerBg = document.getElementById('career-bg')
+    const careerFill = document.getElementById('career-fill')
+
+    if (careerBg && careerFill) {
+      const careerBgTop = careerBg.getBoundingClientRect().top + window.scrollY
+
+      const adjustFillHeight = () => {
+        const scrollY = window.scrollY
+        const distanceScrolled = scrollY - careerBgTop
+
+        const maxHeight = careerBg.offsetHeight
+        const newHeight = Math.max(0, Math.min(distanceScrolled, maxHeight))
+        careerFill.style.height = `${newHeight + window.innerHeight / 3 < maxHeight ? newHeight + window.innerHeight / 3 : maxHeight}px`
+      }
+
+      window.addEventListener('scroll', adjustFillHeight)
+
+      return () => {
+        window.removeEventListener('scroll', adjustFillHeight)
+      }
+    }
   })
 </script>
 
-<h3 class="w-full text-center lg:text-7xl font-semibold lg:pb-10 mt-10">
+<h3
+  class="w-full text-center md:text-7xl font-bold lg:pb-10 mt-10 text-4xl mb-10"
+  id="Career"
+>
   Karriere
 </h3>
 <div
-  id="Career"
   class="w-full justify-items-center flex flex-wrap justify-center gap-6 h-full relative"
 >
   <div
     id="career-bg"
-    class="h-full w-[5px] bg-primary-200 rounded-md absolute right-1/2 md:block hidden"
+    class="h-full w-[7px] bg-primary-200 rounded-md absolute right-1/2 md:block hidden"
   ></div>
   <div
     id="career-fill"
-    class="h-1/2 w-[5px] rounded-md bg-primary-600 absolute right-1/2 md:block hidden"
+    class="w-[7px] rounded-md bg-primary-700 absolute right-1/2 md:block hidden transition-all duration-500 delay-0"
   ></div>
   <CareerFlyIn
     Date="September 2020"
@@ -54,6 +76,3 @@
   />
   <EmptyFlyIn />
 </div>
-
-<style>
-</style>
