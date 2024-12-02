@@ -47,31 +47,31 @@
   ></div>
   <CareerFlyIn
     Date="September 2020"
-    Text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem "
+    Text="Im September 2020 begann ich meine Ausbildung an der IT-HTL Ybbs. Schon seit meiner Kindheit wusste ich, dass es auf diese Schule hinauslaufen würde, und bis heute würde ich keine andere vorziehen."
     Title="IT-HTL Ybbs"
   />
   <EmptyFlyIn />
   <EmptyFlyIn />
   <CareerFlyIn
     Date="Oktober 2022"
-    Text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem "
+    Text="Nach zwei intensiven Jahren an der HTL gelang es mir, mit meinen Fähigkeiten auch außerhalb der Schule Eindruck zu machen. Dieses Projekt war für mich eine prägende und lehrreiche Erfahrung."
     Title="Erstes Kundenprojekt"
   />
   <CareerFlyIn
     Date="November 2023"
-    Text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem "
+    Text="Im November 2023 durfte ich mein Wissen und meine Fähigkeiten bei den Staatsmeisterschaften der Lehrberufe im Bereich 'Web Development' präsentieren. Der dreitägige Wettbewerb war eine spannende Herausforderung mit talentierten Teilnehmern."
     Title="Skills Austria"
   />
   <EmptyFlyIn />
   <EmptyFlyIn />
   <CareerFlyIn
     Date="Jänner 2024"
-    Text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem "
+    Text="Ein Paar tage nach meinem 18. Geburtstag gründete ich mein Unternehmen. Nun konnte ich (so gut es nebe der Schule möglich ist) durchstarten"
     Title="Eröffnung  Firma"
   />
   <CareerFlyIn
     Date="Juni 2024"
-    Text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem "
+    Text="Um meine Fähigkeiten weiter auszubauen, wollte ich mit einem Experten zusammenarbeiten. Bei Deckweiss wurde ich als Full-Stack-Developer Teil eines großartigen Teams, das mich mit Expertise und Know-how unterstützte."
     Title="Full Stack Dev"
   />
   <EmptyFlyIn />
