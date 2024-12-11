@@ -43,7 +43,7 @@
   ></div>
   <div
     id="career-fill"
-    class="w-[7px] rounded-md bg-primary-700 absolute right-1/2 md:block hidden transition-all duration-500 delay-0"
+    class="w-[7px] rounded-md bg-primary-700 absolute right-1/2 md:block hidden"
   ></div>
   <CareerFlyIn
     Date="September 2020"
