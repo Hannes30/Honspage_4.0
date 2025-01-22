@@ -9,7 +9,7 @@
     <h1 class="md:text-6xl text-4xl xl:text-9xl pb-5">Hannes Scheibelauer</h1>
     <span class="md:text-5xl leading-tight text-gray-300 text-2xl"
       >Der Mediengestalter für <span
-        class=" text-secondary-700 bg-primary-200 px-2 rounded-md backgroundFadeIn"
+        class=" text-secondary-700 bg-primary-200 px-2 rounded-md backgroundFadeIn md:text-5xl text-2xl"
         >deine</span
       > Erfolgsstory!</span
     >
