@@ -39,6 +39,9 @@
   function openContactModal() {
     showModalStore.set(true)
   }
+  function closeNav() {
+    isMenuOpen = false
+  }
   function closeContactModal() {
     showModalStore.set(false)
   }
@@ -49,13 +52,13 @@
 {/if}
 
 <nav
-  class={`flex justify-between md:justify-around items-center fixed z-40 p-4 py-4 rounded-md bg-opacity-50 duration-500 w-full gap-5 h-24 ${isNavbarAtTop ? '' : 'bg-secondary-700'}`}
+  class={`flex justify-between md:justify-around items-center fixed z-40 p-4 rounded-md bg-opacity-50 duration-500 w-full gap-5 h-24 ${isNavbarAtTop ? '' : 'bg-secondary-700'}`}
 >
   <div
     class="font-normal flex flex-nowrap items-center justify-center lg:py-2 text-gray-300"
   >
     <a href="/"
-      ><span class="md:ml-4 font-bold text-4xl md:text-5xl"
+      ><span class="md:ml-4 font-bold text-2xl md:text-5xl"
         >Hannes Scheibelauer</span
       >
     </a>
@@ -93,9 +96,13 @@
               <X size={32} /></button
             >
           </div>
-          <NavComponentMobile href="/#offerings">Leistungen</NavComponentMobile>
-          <NavComponentMobile href="/#Career">Karriere</NavComponentMobile>
-          <NavComponentMobile href="/#qa">Q&A</NavComponentMobile>
+          <NavComponentMobile href="/#offerings" {closeNav}
+            >Leistungen</NavComponentMobile
+          >
+          <NavComponentMobile href="/#Career" {closeNav}
+            >Karriere</NavComponentMobile
+          >
+          <NavComponentMobile href="/#qa" {closeNav}>Q&A</NavComponentMobile>
           <div class="flex-1"></div>
         </div>
       </div>

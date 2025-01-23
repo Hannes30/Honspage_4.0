@@ -13,7 +13,7 @@
 <svelte:head>
   <title>Home - Hannes Scheibelauer</title>
 </svelte:head>
-<div>
+<div class="w-full overflow-x-hidden">
   <Nav active="1"></Nav>
   <LandingScreen />
   <div class="relative top-[-20px] pb-5">
