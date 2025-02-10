@@ -13,7 +13,7 @@
   })
 </script>
 
-<footer class="mt-20 bg-primary-400 text-secondary-700 p-5 relative">
+<footer class=" bg-primary-400 text-secondary-700 p-5 relative">
   <div class="text-2xl font-medium text-center sm:text-3xl">
     © Hannes Scheibelauer
   </div>

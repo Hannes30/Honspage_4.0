@@ -16,13 +16,13 @@
 <div class="w-full overflow-x-hidden">
   <Nav active="1"></Nav>
   <LandingScreen />
-  <div class="relative top-[-20px] pb-5">
+  <div class="relative">
     <div class="overflow-hidden">
       <div
-        class="bg-secondary-700 -rotate-1 h-12 w-screen relative top-5 overflow-x-hidden"
+        class="bg-secondary-700 -rotate-1 h-12 w-full relative top-6 overflow-x-hidden"
       ></div>
     </div>
-    <div class=" bg-secondary-700">
+    <div class=" bg-secondary-700 overflow-x-hidden h-max">
       <FirstCtaText></FirstCtaText>
       <CallToAction id="offerings"></CallToAction>
       <MyOffersSection></MyOffersSection>
@@ -31,11 +31,5 @@
 
       <Questions></Questions>
     </div>
-    <div
-      class="absolute bottom-[-100px] z-10 h-20 bg-secondary-700 w-full"
-    ></div>
   </div>
 </div>
-
-<style>
-</style>

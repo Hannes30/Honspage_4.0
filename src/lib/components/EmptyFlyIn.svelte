@@ -3,4 +3,6 @@
   import { animate, inView } from 'motion'
 </script>
 
-<div class="md:w-1/2 flex-col justify-center items-center"></div>
+<div
+  class="md:w-1/2 flex-col justify-center items-center hidden md:block"
+></div>

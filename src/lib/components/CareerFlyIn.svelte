@@ -25,15 +25,19 @@
 </script>
 
 <div
-  class="flex md:w-1/3 flex-col justify-center items-center w-full CareerFlyIn opacity-0"
+  class="flex md:w-1/3 flex-col justify-center items-center w-full CareerFlyIn opacity-0 gap-1"
 >
-  <div class="text-primary-200 text-xl md:text-2xl text-center">
+  <div class="text-primary-200 text-lg md:text-2xl text-center">
     {Date}
   </div>
   <div class="flyinHeading text-3xl md:text-5xl font-bold text-center">
     {Title}
   </div>
-  <div class="text-center pt-1 w-5/6 CareerFlyInText text-lg">{Text}</div>
+  <div
+    class="text-center pt-1 w-5/6 CareerFlyInText text-md md:text-xl text-xl opacity-70"
+  >
+    {Text}
+  </div>
 </div>
 
 <style>

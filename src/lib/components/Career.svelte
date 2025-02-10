@@ -35,7 +35,7 @@
   Karriere
 </h3>
 <div
-  class="w-full justify-items-center flex flex-wrap justify-center gap-6 h-full relative"
+  class="w-full justify-items-center flex flex-wrap justify-center md:gap-6 gap-10 h-full relative"
 >
   <div
     id="career-bg"
