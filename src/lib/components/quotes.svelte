@@ -3,9 +3,9 @@
 
   let quotes = [
     {
-      author: 'Althea Müller',
-      text: 'Hannes hat mir unkompliziert, sehr proaktiv und dabei immer aufs Budget  achtend meine neue Website erstellt. Für Fragen nimmt er sich dabei  gerne Zeit, individuelle Wünsche hat er immer berücksichtigt und toll  umgesetzt. Dazu ist er sehr flexibel und gleichzeitig zuverlässig in der Zusammenarbeit. Vielen Dank dafür! ',
-      site: 'altheamueller.com',
+      author: 'Christina Zehetner',
+      text: 'Die Zusammenarbeit mit Hannes war von Anfang an sehr klar und strukturiert. Ich konnte mich gut auf ihn verlassen, dass alles im vereinbarten Zeitrahmen und in hoher Qualität abgeschlossen wird. Ich bin mit dem Endergebnis sehr zufrieden und würde ihn jederzeit weiterempfehlen!',
+      site: 'christinazehetner.at',
     },
   ]
 </script>
