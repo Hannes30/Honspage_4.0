@@ -86,7 +86,7 @@
     </h2>
     <div
       bind:this={textContainer}
-      class="text-center md:text-3xl text-xl font-semibold text-gray-300 mt-3 idoText"
+      class="text-center md:text-2xl text-xl font-semibold text-gray-300 mt-3 idoText"
       style="height: {fixedHeight}; overflow: hidden;"
     >
       {offers[activeOffer].text}

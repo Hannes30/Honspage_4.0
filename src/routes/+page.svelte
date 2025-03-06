@@ -8,6 +8,7 @@
   import MyOffersSection from '../lib/components/MyOffersSection.svelte'
   import HowIdDoItSection from '../lib/components/HowIdDoItSection.svelte'
   import Career from '../lib/components/Career.svelte'
+  import Quotes from '../lib/components/quotes.svelte'
 </script>
 
 <svelte:head>
@@ -26,6 +27,7 @@
       <FirstCtaText></FirstCtaText>
       <CallToAction id="offerings"></CallToAction>
       <MyOffersSection></MyOffersSection>
+      <Quotes></Quotes>
       <HowIdDoItSection></HowIdDoItSection>
       <Career></Career>
 
