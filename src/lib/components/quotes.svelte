@@ -10,7 +10,7 @@
   ]
 </script>
 
-<div>
+<div class="py-10">
   {#each quotes as quote}
     <Quote {quote}></Quote>
   {/each}
