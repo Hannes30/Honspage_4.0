@@ -66,7 +66,7 @@
   <EmptyFlyIn />
   <CareerFlyIn
     Date="Jänner 2024"
-    Text="Ein Paar tage nach meinem 18. Geburtstag gründete ich mein Unternehmen. Nun konnte ich (so gut es nebe der Schule möglich ist) durchstarten"
+    Text="Ein Paar tage nach meinem 18. Geburtstag gründete ich mein Unternehmen. Nun konnte ich (so gut es neben der Schule möglich ist) durchstarten"
     Title="Eröffnung  Firma"
   />
   <CareerFlyIn
