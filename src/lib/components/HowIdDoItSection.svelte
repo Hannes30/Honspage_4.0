@@ -11,51 +11,32 @@
 
   let data = [
     {
-      title: 'Kommunikation',
-      text: 'Offene Kommunikation ist der Schlüssel. Ich verstehe deine Anforderungen und entwickle Lösungen, die überzeugen.',
-      svgPath: communicationSVG,
+      title: 'SEO',
+      text: 'Mit moderner Suchmaschinenoptimierung (SEO) optimiere ich deine Website für maximale Sichtbarkeit bei Google & Co.',
+      svgPath: seoSVG,
       width: 'w-5/12',
+    },
+
+    {
+      title: 'Aktuallität',
+      text: 'Ich beschäftige mich laufend mit aktuellen Webstandards und Designtrends – dieses Wissen fließt direkt in deine Website ein. So ist sie nicht nur modern, sondern auch zukunftssicher.',
+      svgPath: upToDateSVG,
+      width: 'w-6/12',
     },
     {
       title: 'Zusammenarbeit',
-      text: 'Gemeinsam schaffen wir beeindruckende Ergebnisse durch enge Zusammenarbeit und kontinuierliches Feedback.',
+      text: 'Gemeinsam schaffen wir beeindruckende Ergebnisse durch enge Zusammenarbeit und kontinuierliches Feedback. Damit deine Website genauso wird, wie du sie dir vorstellst.',
       svgPath: ZusammenarbeitSVG,
-      width: 'w-5/12',
+      width: 'w-7/12',
     },
-    {
-      title: 'SEO',
-      text: 'Mit modernem SEO optimiere ich deine Website für maximale Sichtbarkeit und nachhaltigen Erfolg.',
-      svgPath: seoSVG,
-      width: 'w-4/12',
-    },
-    {
-      title: 'Up To Date',
-      text: 'Ich halte deine Website immer auf dem neuesten Stand, damit sie mit aktuellen Trends Schritt hält.',
-      svgPath: upToDateSVG,
-      width: 'w-3/12',
-    },
+
     {
       title: 'Support',
       text: 'Ich unterstütze dich auch nach dem Launch mit Wartung, Updates und technischer Hilfe.',
       svgPath: supportSVG,
       width: 'w-4/12',
     },
-    {
-      title: 'Expertise',
-      text: 'Mit jahrelanger Erfahrung setze ich auch komplexe Projekte erfolgreich um.',
-      svgPath: expertSVG,
-      width: 'w-3/12',
-    },
   ]
-
-  function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1))
-      ;[array[i], array[j]] = [array[j], array[i]]
-    }
-    return array
-  }
-  data = shuffleArray(data)
 
   onMount(() => {
     inView('.HDISHeading', (info) => {

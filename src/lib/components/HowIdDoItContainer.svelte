@@ -21,7 +21,7 @@
 </script>
 
 <div
-  class="HDIC flex flex-col rounded-md border-primary-300 items-center justify-center border px-5 py-5 bg-primary-500 bg-opacity-20 gap-2 md:gap-5 {width}"
+  class="HDIC flex flex-col rounded-md border-primary-300 items-center justify-center border px-5 py-5 bg-opacity-20 gap-2 md:gap-5 {width}"
 >
   <div
     class=" flex lg:flex-row justify-between gap-2 md:gap-5 flex-col items-center min-w-min"
@@ -37,12 +37,19 @@
       >{title}</span
     >
   </div>
-  <div class="text-center text-sm md:text-xl">
+  <div class="text-center text-sm md:text-xl text-gray-200">
     {text}
   </div>
 </div>
 
 <style>
+  .HDIC {
+    background: linear-gradient(
+      45deg,
+      rgba(72, 255, 191, 0.2),
+      rgba(153, 255, 219, 0.1)
+    );
+  }
   @media (max-width: 768px) {
     .HDIC {
       width: 100%;
