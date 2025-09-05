@@ -11,7 +11,6 @@
 
 <style>
   .twoThirdText {
-    line-height: 25vw;
     background: -webkit-linear-gradient(45deg, #3bc3cc, #18c9a3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

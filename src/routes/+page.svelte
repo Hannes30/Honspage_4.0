@@ -29,9 +29,6 @@
       <MyOffersSection></MyOffersSection>
       <Quotes></Quotes>
       <HowIdDoItSection></HowIdDoItSection>
-      <Career></Career>
-
-      <Questions></Questions>
     </div>
   </div>
 </div>
