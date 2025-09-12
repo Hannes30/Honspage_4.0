@@ -53,7 +53,7 @@
 </script>
 
 <div class="flex justify-center flex-col items-center">
-  <h3 class="text-center text-xl lg:text-3xl font-black pb-10 HDISHeading">
+  <h3 class="text-center text-2xl lg:text-3xl font-black pb-10 HDISHeading">
     Mein Erfolgsrezept
   </h3>
   <div class="flex justify-center flex-wrap gap-8 w-11/12">

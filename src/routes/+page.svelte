@@ -9,6 +9,7 @@
   import HowIdDoItSection from '../lib/components/HowIdDoItSection.svelte'
   import Career from '../lib/components/Career.svelte'
   import Quotes from '../lib/components/quotes.svelte'
+  import ProjectShowcase from '../lib/components/ProjectShowcase.svelte'
 </script>
 
 <svelte:head>
@@ -28,6 +29,7 @@
       <CallToAction id="offerings"></CallToAction>
       <MyOffersSection></MyOffersSection>
       <Quotes></Quotes>
+      <!-- <ProjectShowcase></ProjectShowcase> --> 
       <HowIdDoItSection></HowIdDoItSection>
     </div>
   </div>

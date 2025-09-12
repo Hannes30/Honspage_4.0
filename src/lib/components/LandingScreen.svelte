@@ -10,7 +10,7 @@
     <span class="md:text-5xl leading-tight text-gray-300 text-2xl"
       >Der Mediengestalter für <span
         class=" text-secondary-700 bg-primary-200 px-2 rounded-md backgroundFadeIn md:text-5xl text-2xl"
-        >deine</span
+        >ihre</span
       > Erfolgsstory!</span
     >
   </div>

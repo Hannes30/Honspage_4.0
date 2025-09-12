@@ -26,7 +26,6 @@
   },
   "type": "module",
   "dependencies": {
-    "kute.js": "^2.2.4",
     "lucide-svelte": "^0.473.0",
     "motion": "^10.18.0",
     "sharp": "^0.33.3"
