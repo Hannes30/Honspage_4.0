@@ -30,13 +30,13 @@
   >
     Ein Erstgespräch ist kostenfrei
   </span>
-  <button
-    on:click={openContactModal}
+  <a
+    href="/#contact"
     class="button bg-primary-400 rounded-md text-secondary-700 px-10 py-4 lg:py-6 lg:px-15 text-2xl lg:text-4xl font-bold m-10 mt-3 relative top-0 hover:-top-1 duration-300 CTAButton"
     {id}
   >
     Kontaktiere mich
-  </button>
+  </a>
 </div>
 
 <style>

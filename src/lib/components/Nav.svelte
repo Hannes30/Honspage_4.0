@@ -36,20 +36,11 @@
   function handleScroll() {
     isNavbarAtTop = window.scrollY === 0
   }
-  function openContactModal() {
-    showModalStore.set(true)
-  }
+
   function closeNav() {
     isMenuOpen = false
   }
-  function closeContactModal() {
-    showModalStore.set(false)
-  }
 </script>
-
-{#if $showModalStore}
-  <ContactForm {closeContactModal} />
-{/if}
 
 <nav
   class={`flex justify-between md:justify-around items-center fixed z-40 p-4 rounded-md bg-opacity-50 duration-500 w-full gap-5 h-24 ${isNavbarAtTop ? '' : 'bg-secondary-700'}`}
@@ -71,10 +62,12 @@
         <NavComponent href="/#qa">Q&A</NavComponent>
       </div>
     </div>
-    <button
+    <a
+      href="/#contact"
       class="bg-primary-400 rounded-md text-secondary-700 button lg:px-4 lg:py-1 px-2 font-semibold top-0 hover:-top-0.5 duration-300 button sm:text-xl lg:text-2xl"
-      on:click={openContactModal}>Kontakt</button
     >
+      Kontakt
+    </a>
   </div>
 
   <div class="md:hidden flex flex-nowrap">

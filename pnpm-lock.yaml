@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      kute.js:
-        specifier: ^2.2.4
-        version: 2.2.4
       lucide-svelte:
         specifier: ^0.473.0
         version: 0.473.0(svelte@4.2.20)
@@ -815,13 +812,6 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       vite: ^5.0.0
 
-  '@thednp/bezier-easing@1.0.10':
-    resolution: {integrity: sha512-MHuWD0Y2SZC5z+xOIEhgZWBkCujH8BEfrkMDbaU/iX0CaqYJWJrhhEc+x5cu9pzpjc0tL5/Fe9VS5JDIG3wzjA==}
-    engines: {node: '>=20', pnpm: '>=8.6.0'}
-
-  '@thednp/shorty@1.0.3':
-    resolution: {integrity: sha512-PPaERUGmRpi2eWxYUV5yv/pvalPgPOjwKRmRqGMWGuV8xgkvxgtjKIiFJA2D2ei4l4Ih9mEBktDg6Z9+y+To9Q==}
-
   '@types/cookie@0.6.0':
     resolution: {integrity: sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==}
 
@@ -968,10 +958,6 @@ packages:
   dlv@1.1.3:
     resolution: {integrity: sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==}
 
-  dommatrix@1.0.3:
-    resolution: {integrity: sha512-l32Xp/TLgWb8ReqbVJAFIvXmY7go4nTxxlWiAFyhoQw9RKEOHBZNnyGvJWqDVSPmq3Y9HlM4npqF/T6VMOXhww==}
-    deprecated: dommatrix is no longer maintained. Please use @thednp/dommatrix.
-
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
@@ -1110,9 +1096,6 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
 
-  kute.js@2.2.4:
-    resolution: {integrity: sha512-M63qfJplLT/1+qeRdFtHimC0D4fqUyRqHJcsnWWTY9s+isB6TsNNx/oSR2XzMm4CsY9Rvqurd+xUYSyJggmhbQ==}
-
   lilconfig@3.1.3:
     resolution: {integrity: sha512-/vlFKAoH5Cgt3Ie+JLhRbwOsCQePABiU3tJ1egGvyQ+33R/vcwM2Zl2QR/LzjsBeItPt3oSVXapn+m4nQDvpzw==}
     engines: {node: '>=14'}
@@ -1144,9 +1127,6 @@ packages:
   micromatch@4.0.8:
     resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
     engines: {node: '>=8.6'}
-
-  minifill@0.0.17:
-    resolution: {integrity: sha512-tV56LFXsi8vjH4tUExtlu8aPKKQw/U/mn4OIrDU9x30H+9sP8/dWFbXzkAPmcH6o+9fho98kyafnk4VgQViYQQ==}
 
   minimatch@9.0.5:
     resolution: {integrity: sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==}
@@ -1394,9 +1374,6 @@ packages:
   svelte@4.2.20:
     resolution: {integrity: sha512-eeEgGc2DtiUil5ANdtd8vPwt9AgaMdnuUFnPft9F5oMvU/FHu5IHFic+p1dR/UOB7XU2mX2yHW+NcTch4DCh5Q==}
     engines: {node: '>=16'}
-
-  svg-path-commander@1.0.5:
-    resolution: {integrity: sha512-hhQfARVXoPrwwe4DNPWM4hjQLK7rTxwQ+TUc5mxoe5g0k5eStc4SPnKqmivlm/dzZ98bI+yDyKye92n2t+oOiQ==}
 
   tailwind-merge@2.6.0:
     resolution: {integrity: sha512-P+Vu1qXfzediirmHOC3xKGAYeZtPcV9g76X+xg2FD4tYgR71ewMA35Y3sCz3zhiN/dwefRpJX0yBcgwi1fXNQA==}
@@ -2036,10 +2013,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@thednp/bezier-easing@1.0.10': {}
-
-  '@thednp/shorty@1.0.3': {}
-
   '@types/cookie@0.6.0': {}
 
   '@types/estree@1.0.8': {}
@@ -2168,8 +2141,6 @@ snapshots:
   didyoumean@1.2.2: {}
 
   dlv@1.1.3: {}
-
-  dommatrix@1.0.3: {}
 
   eastasianwidth@0.2.0: {}
 
@@ -2340,13 +2311,6 @@ snapshots:
 
   kleur@4.1.5: {}
 
-  kute.js@2.2.4:
-    dependencies:
-      '@thednp/bezier-easing': 1.0.10
-      '@thednp/shorty': 1.0.3
-      minifill: 0.0.17
-      svg-path-commander: 1.0.5
-
   lilconfig@3.1.3: {}
 
   lines-and-columns@1.2.4: {}
@@ -2371,8 +2335,6 @@ snapshots:
     dependencies:
       braces: 3.0.3
       picomatch: 2.3.1
-
-  minifill@0.0.17: {}
 
   minimatch@9.0.5:
     dependencies:
@@ -2670,10 +2632,6 @@ snapshots:
       locate-character: 3.0.0
       magic-string: 0.30.18
       periscopic: 3.1.0
-
-  svg-path-commander@1.0.5:
-    dependencies:
-      dommatrix: 1.0.3
 
   tailwind-merge@2.6.0: {}
 

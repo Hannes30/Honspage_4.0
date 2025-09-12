@@ -1,35 +1,8 @@
 [
   {
-    "title": "CineManager",
-    "url": "https://cinemanager.example.com",
-    "description": "A modern cinema management software with an improved UI/UX, online payments, and REST API integration.",
-    "cover": "../img/projects/EcoGift.png",
-    "pictures": [
-      "/images/cinemanager-1.jpg",
-      "/images/cinemanager-2.jpg",
-      "/images/cinemanager-3.jpg"
-    ]
-  },
-  {
-    "title": "Hiking Adventures",
-    "url": "https://hiking-adventures.example.com",
-    "description": "A platform to discover, plan, and share hiking trips across Austria, featuring maps, routes, and community events.",
-    "cover": "/images/hiking-1.jpg",
-    "pictures": [
-      "/images/hiking-1.jpg",
-      "/images/hiking-2.jpg",
-      "/images/hiking-3.jpg"
-    ]
-  },
-  {
-    "title": "Creative Portfolio",
-    "url": "https://portfolio.example.com",
-    "description": "A stylish online portfolio showcasing creative projects with smooth animations and responsive design.",
-    "cover": "/images/portfolio-1.jpg",
-    "pictures": [
-      "/images/portfolio-1.jpg",
-      "/images/portfolio-2.jpg",
-      "/images/portfolio-3.jpg"
-    ]
+    "title": "Christina Zehetner",
+    "url": "https://www.christinazehetner.at/",
+    "description": "Portfolio Website",
+    "cover": "/img/projects/ChrZeh.png"
   }
 ]

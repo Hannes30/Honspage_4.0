@@ -52,18 +52,20 @@
   })
 </script>
 
-<div class="flex justify-center flex-col items-center">
-  <h3 class="text-center text-2xl lg:text-3xl font-black pb-10 HDISHeading">
-    Mein Erfolgsrezept
-  </h3>
-  <div class="flex justify-center flex-wrap gap-8 w-11/12">
-    {#each data as element}
-      <HowIdDoItContainer
-        title={element.title}
-        svg={element.svgPath}
-        text={element.text}
-        width={element.width}
-      ></HowIdDoItContainer>
-    {/each}
+<div class="flex justify-center">
+  <div class="flex justify-center flex-col items-center w-4/5">
+    <h3 class="text-center text-2xl lg:text-3xl font-black pb-10 HDISHeading">
+      Mein Erfolgsrezept
+    </h3>
+    <div class="flex justify-center flex-wrap gap-8">
+      {#each data as element}
+        <HowIdDoItContainer
+          title={element.title}
+          svg={element.svgPath}
+          text={element.text}
+          width={element.width}
+        ></HowIdDoItContainer>
+      {/each}
+    </div>
   </div>
 </div>
