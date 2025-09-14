@@ -52,9 +52,9 @@
   })
 </script>
 
-<div class="flex justify-center">
-  <div class="flex justify-center flex-col items-center w-4/5">
-    <h3 class="text-center text-2xl lg:text-3xl font-black pb-10 HDISHeading">
+<div class="flex justify-center pt-10 lg:pt-20">
+  <div class="flex justify-center flex-col items-center w-4/5 gap-20">
+    <h3 class="text-center text-2xl lg:text-4xl font-bold HDISHeading">
       Mein Erfolgsrezept
     </h3>
     <div class="flex justify-center flex-wrap gap-8">

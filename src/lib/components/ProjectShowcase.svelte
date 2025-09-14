@@ -14,10 +14,11 @@
 </script>
 
 <div
-  class="w-full flex justify-center items-center flex-wrap gap-2 mb-14 lg:mb-20"
+  class="w-full flex justify-center items-center flex-wrap gap-2 mb-14 lg:mb-20 lg:py-10"
+  id="projects"
 >
   <h3
-    class="text-center text-3xl lg:text-5xl font-black pb-10 HDISHeading w-full"
+    class="text-center text-3xl lg:text-5xl font-bold pb-10 HDISHeading w-full"
   >
     Meine Projekte
   </h3>

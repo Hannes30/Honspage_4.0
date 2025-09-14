@@ -1,4 +1,6 @@
 <script>
+  import { MapPin, Mail, PhoneIcon, Instagram } from 'lucide-svelte'
+  import HannesScheibelauerDeckweiss from '$lib/img/HannesScheibelauerDeckweiss.webp?enhanced'
   const email = 'kontakt@hannes-scheibelauer.at'
   const subject = 'Interesse an einer Zusammenarbeit'
 
@@ -14,15 +16,55 @@ Viele Grüße,
 </script>
 
 <div class="w-full flex justify-center items-center mt-20" id="contact">
-  <div class="flex justify-center items-center ml-16 lg:py-20 w-4/5 flex-wrap">
-    <a
-      href={mailto}
-      class="underline hover:text-primary-400 duration-300 text-6xl font-semibold text-primary-600 flex justify-center items-center w-full"
+  <div
+    class="flex justify-around items-center lg:ml-16 ml-10 lg:mr-0 mr-10 lg:flex-nowrap flex-wrap"
+  >
+    <div
+      class="flex-1 flex flex-col gap-10 pb-10 lg:items-start lg:text-left text-left"
     >
-      Lass uns gemeinsam loslegen
-    </a>
-    <div class="flex-1">
-      <img src="" alt="" />
+      <h3 class="lg:text-5xl sm:text-4xl text-3xl font-bold lg:mb-6">
+        Lass uns ein Projekt Starten!
+      </h3>
+      <div
+        class="flex flex-col gap-10 lg:justify-normal justify-center items-start w-max"
+      >
+        <div
+          class="flex justify-left items-center whitespace-nowrap gap-2 sm:gap-6"
+        >
+          <MapPin class="inline w-8 h-8 lg:w-10 lg:h-10" />
+          <span
+            class="font-semibold text-lg sm:text-xl lg:text-3xl xl:text-4xl text-gray-100"
+            >3250 Mühling, Österreich</span
+          >
+        </div>
+        <div class="flex items-center gap-2 sm:gap-6">
+          <Mail class="inline w-8 h-8 lg:w-10 lg:h-10" />
+          <a
+            href={mailto}
+            class="font-semibold text-lg sm:text-xl lg:text-3xl xl:text-4xl underline hover:text-primary-400 duration-300 whitespace-nowrap text-gray-100"
+            >kontakt@hannes-scheibelauer.at</a
+          >
+        </div>
+        <div class="flex items-center whitespace-nowrap gap-2 sm:gap-6">
+          <PhoneIcon class="inline w-8 h-8 lg:w-10 lg:h-10" />
+          <a
+            href="tel:+4369912345678"
+            class="font-semibold text-lg sm:text-xl lg:text-3xl underline hover:text-primary-400 duration-300 whitespace-nowrap xl:text-4xl text-gray-100"
+            >0670 2018717</a
+          >
+        </div>
+        <!--<div class="flex items-center l whitespace-nowrap gap-2 sm:gap-6">
+          <Instagram class="inline w-8 h-8 lg:w-10 lg:h-10" />
+          <a
+            href="https://instagram.com/hannes.scheibelauer"
+            target="_blank"
+            rel="noopener"
+            class="font-semibold text-lg sm:text-xl underline hover:text-primary-400 duration-300 whitespace-nowrap lg:text-3xl xl:text-4xl text-gray-100"
+            >@hannes.scheibelauer</a
+          >
+        </div> -->
+      </div>
     </div>
+    <div class="flex justify-center h-full"></div>
   </div>
 </div>

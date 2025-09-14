@@ -29,11 +29,10 @@
       <FirstCtaText></FirstCtaText>
       <CallToAction id="offerings"></CallToAction>
       <MyOffersSection></MyOffersSection>
+      <ProjectShowcase></ProjectShowcase>
 
-      <!--<ProjectShowcase></ProjectShowcase>  -->
-      <HowIdDoItSection></HowIdDoItSection>
-      <Contact></Contact>
       <Quotes></Quotes>
+      <Contact></Contact>
     </div>
   </div>
 </div>

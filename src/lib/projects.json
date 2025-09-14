@@ -4,5 +4,11 @@
     "url": "https://www.christinazehetner.at/",
     "description": "Portfolio Website",
     "cover": "/img/projects/ChrZeh.png"
+  },
+  {
+    "title": "Scheichelbauer Hof",
+    "url": "https://scheichelbauer-hof.at/",
+    "description": "Portfolio Website",
+    "cover": "/img/projects/SchBau.png"
   }
 ]

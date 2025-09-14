@@ -58,8 +58,7 @@
     <div class=" flex-nowrap">
       <div class="flex justify-center">
         <NavComponent href="/#offerings">Leistungen</NavComponent>
-        <NavComponent href="/#Career">Karriere</NavComponent>
-        <NavComponent href="/#qa">Q&A</NavComponent>
+        <NavComponent href="/#projects">Projekte</NavComponent>
       </div>
     </div>
     <a

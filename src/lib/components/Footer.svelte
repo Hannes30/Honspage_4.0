@@ -13,7 +13,7 @@
   })
 </script>
 
-<footer class=" bg-primary-400 text-secondary-700 p-5 relative">
+<footer class=" bg-primary-400/50 text-secondary-700 p-5 relative">
   <div class="text-2xl font-medium text-center sm:text-3xl">
     © Hannes Scheibelauer
   </div>
@@ -24,12 +24,7 @@
       <p class="py-2">kontakt@hannes-scheibelauer.at</p>
       <p class="py-2">0670 2018717</p>
     </div>
-    <div class="text-l sm:leading-loose sm:text-xl leading-7">
-      <p class="text-2xl opacity-80 py-2">
-        <a href="/#offerings">Leistungen</a>
-      </p>
-      <p class="text-2xl opacity-80 py-2"><a href="/#qa">Q&A</a></p>
-    </div>
+    <div class="text-l sm:leading-loose sm:text-xl leading-7"></div>
   </div>
 </footer>
 
