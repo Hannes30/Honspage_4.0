@@ -37,4 +37,10 @@
     max-height: 60vh;
     width: 100%;
   }
+  @media only screen and (max-width: 1024px) {
+    .wrapper {
+      max-height: 400px;
+      width: 100%;
+    }
+  }
 </style>

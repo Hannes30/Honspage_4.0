@@ -1,10 +1,10 @@
 <script>
-  import HannesScheibelauerDeckweiss from '$lib/img/HannesScheibelauerDeckweiss.webp?enhanced'
+  import HannesScheibelauerDeckweiss from '$lib/img/HannesLaptopNormal.webp?enhanced'
 </script>
 
 <div class=" justify-center flex">
   <div
-    class="w-4/5 flex flex-wrap justify-around items-center lg:ml-16 ml-4 lg:flex-nowrap pt-20 overflow-x-hidden sm:pt-24 relative top-[20px]"
+    class="w-4/5 flex flex-wrap justify-between items-center lg:flex-nowrap pt-20 overflow-x-hidden sm:pt-24 relative top-[20px] -ml-1"
   >
     <div class="lg:pb-40 pb-8">
       <h1 class="md:text-6xl text-4xl xl:text-9xl pb-5">Hannes Scheibelauer</h1>

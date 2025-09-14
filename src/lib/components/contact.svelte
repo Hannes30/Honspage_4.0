@@ -1,6 +1,6 @@
 <script>
   import { MapPin, Mail, PhoneIcon, Instagram } from 'lucide-svelte'
-  import HannesScheibelauerDeckweiss from '$lib/img/HannesScheibelauerDeckweiss.webp?enhanced'
+  import HannesScheibelauerCrazy from '$lib/img/HannesLaptopStart.webp?enhanced'
   const email = 'kontakt@hannes-scheibelauer.at'
   const subject = 'Interesse an einer Zusammenarbeit'
 
@@ -17,10 +17,10 @@ Viele Grüße,
 
 <div class="w-full flex justify-center items-center mt-20" id="contact">
   <div
-    class="flex justify-around items-center lg:ml-16 ml-10 lg:mr-0 mr-10 lg:flex-nowrap flex-wrap"
+    class="flex justify-center items-center lg:ml-16 ml-10 lg:mr-0 mr-10 lg:flex-nowrap flex-wrap"
   >
     <div
-      class="flex-1 flex flex-col gap-10 pb-10 lg:items-start lg:text-left text-left"
+      class="flex-2 flex flex-col gap-10 pb-10 lg:items-start lg:text-left text-left"
     >
       <h3 class="lg:text-5xl sm:text-4xl text-3xl font-bold lg:mb-6">
         Lass uns ein Projekt Starten!
@@ -65,6 +65,13 @@ Viele Grüße,
         </div> -->
       </div>
     </div>
-    <div class="flex justify-center h-full"></div>
+    <div class=" h-full lg:w-1/3">
+      <enhanced:img
+        src={HannesScheibelauerCrazy}
+        alt="Hannes Scheibelauer Portrait photo"
+        style="height: 100%; object-fit: contain; max-height: 500px;"
+        class=" rounded-lg"
+      />
+    </div>
   </div>
 </div>
