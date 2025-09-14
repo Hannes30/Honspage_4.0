@@ -11,7 +11,7 @@
       <img
         src={image}
         alt={'Banner Image of ' + name}
-        class="h-full rounded-md"
+        class="h-full rounded-md object-cover"
       />
       <!-- Black overlay with 10% opacity -->
       <div
@@ -39,7 +39,7 @@
   }
   @media only screen and (max-width: 1024px) {
     .wrapper {
-      max-height: 400px;
+      max-height: 40vh;
       width: 100%;
     }
   }

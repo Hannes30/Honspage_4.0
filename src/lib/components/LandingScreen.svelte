@@ -4,7 +4,7 @@
 
 <div class=" justify-center flex">
   <div
-    class="w-4/5 flex flex-wrap justify-between items-center lg:flex-nowrap pt-20 overflow-x-hidden sm:pt-24 relative top-[20px] -ml-1"
+    class="w-4/5 flex flex-wrap lg:justify-between justify-center items-center lg:items-end lg:flex-nowrap pt-20 overflow-x-hidden sm:pt-24 relative top-[40px] lg:top-10 -ml-1 h-full"
   >
     <div class="lg:pb-40 pb-8">
       <h1 class="md:text-6xl text-4xl xl:text-9xl pb-5">Hannes Scheibelauer</h1>
@@ -15,7 +15,7 @@
         > Erfolgsstory!</span
       >
     </div>
-    <div class="w-1/2 md:h-full relative">
+    <div class="w-2/3 md:h-full relative lg:w-1/2">
       <enhanced:img
         src={HannesScheibelauerDeckweiss}
         alt="Hannes Scheibelauer Potrait photo"
