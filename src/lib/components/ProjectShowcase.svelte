@@ -1,6 +1,7 @@
 <script>
   import Banner from '$lib/components/Banner.svelte'
   import projects from '$lib/projects.json'
+  import { onMount } from 'svelte'
 
   function chunk(array, size) {
     const result = []
@@ -10,6 +11,19 @@
     return result
   }
 
+  onMount(() => {
+    inView('.projectHeading', (info) => {
+      animate(
+        info.target,
+        {
+          opacity: [0, 1],
+          transform: ['translateY(100px)', 'translateY(0)'],
+        },
+        { delay: 0.3, duration: 0.5 },
+      )
+    })
+  })
+
   $: rows = chunk(projects, 2)
 </script>
 
@@ -18,17 +32,18 @@
   id="projects"
 >
   <h3
-    class="text-center text-3xl lg:text-5xl font-bold pb-10 HDISHeading w-full"
+    class="text-center text-3xl lg:text-5xl font-bold pb-10 projectHeading w-full"
   >
-    Meine Projekte
+    Ein kurzer Einblick in meine Arbeit
   </h3>
 
-  <div class="justify-center flex flex-wrap w-3/4 gap-10">
+  <div class="justify-center flex flex-wrap w-4/5 gap-10">
     {#each rows as row}
       <div class="flex gap-10 lg:flex-row flex-col">
-        {#each row as project}
+        {#each row as project, index}
           <Banner
             name={project.title}
+            {index}
             image={project.cover}
             text={project.description}
             route={project.url}

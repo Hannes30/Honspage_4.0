@@ -1,17 +1,45 @@
 <script>
   export let name
   export let image
+  export let index
   export let text
+  import { onMount } from 'svelte'
+  import { animate, inView } from 'motion'
   export let route
+
+  onMount(() => {
+    inView('.bannerWrapper' + index, (info) => {
+      if (index % 2 === 0) {
+        animate(
+          info.target,
+          {
+            opacity: [0, 1],
+            transform: ['translateX(-100px)', 'translateX(0)'],
+          },
+          { delay: 0.3, duration: 0.5 },
+        )
+        return
+      } else {
+        animate(
+          info.target,
+          {
+            opacity: [0, 1],
+            transform: ['translateX(100px)', 'translateX(0)'],
+          },
+          { delay: 0.3, duration: 0.5 },
+        )
+      }
+    })
+  })
 </script>
 
-<div class="justify-center flex w-full">
+<div class={'justify-center flex w-full bannerWrapper' + index}>
   <a class=" wrapper flex justify-center" href={route}>
     <div class="relative group overflow-hidden object-cover">
       <img
         src={image}
         alt={'Banner Image of ' + name}
-        class="h-full rounded-md object-cover"
+        class="rounded-md object-cover"
       />
       <!-- Black overlay with 10% opacity -->
       <div
@@ -19,11 +47,11 @@
       ></div>
 
       <div
-        class="absolute bottom-2 lg:-bottom-28 rounded-md bg-gradient-to-tr from-secondary-700/70 to-secondary-700/50 bg-opacity-70 p-3 left-2 group-hover:transform lg:group-hover:-translate-y-32 transition duration-500 max-w-60 sm:max-w-full"
+        class="absolute bottom-2 lg:-bottom-28 rounded-md bg-gradient-to-tr from-secondary-700/70 to-secondary-700/30 bg-opacity-70 p-2 left-2 group-hover:transform lg:group-hover:-translate-y-32 transition duration-500 max-w-60 sm:max-w-full lg:p-4"
       >
-        <h2 class="lg:text-4xl sm:text-2xl text-xl text-primary-100">{name}</h2>
+        <h2 class="lg:text-3xl sm:text-2xl text-lg text-primary-100">{name}</h2>
         <p
-          class="text-primary-100 font-light text-sm sm:text-lg lg:text-xl text-ellipsis line-clamp-1"
+          class="text-primary-100/70 font-light text-sm sm:text-lg lg:text-xl text-ellipsis line-clamp-1"
         >
           {text}
         </p>
@@ -31,16 +59,3 @@
     </div>
   </a>
 </div>
-
-<style>
-  .wrapper {
-    max-height: 60vh;
-    width: 100%;
-  }
-  @media only screen and (max-width: 1024px) {
-    .wrapper {
-      max-height: 40vh;
-      width: 100%;
-    }
-  }
-</style>

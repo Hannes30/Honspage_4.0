@@ -8,7 +8,13 @@
   {
     "title": "Scheichelbauer Hof",
     "url": "https://scheichelbauer-hof.at/",
-    "description": "Portfolio Website",
+    "description": "Homepage, Online Produktkatalog",
     "cover": "/img/projects/SchBau.png"
+  },
+  {
+    "title": "Sportvereine VHP",
+    "url": "https://www.sportvereine-vhp.at/",
+    "description": "Homepage für die Sporvereine der Verbund AG",
+    "cover": "/img/projects/Vhp.png"
   }
 ]

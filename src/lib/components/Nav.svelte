@@ -43,11 +43,11 @@
 </script>
 
 <nav
-  class={`flex justify-between md:justify-around items-center fixed z-40  rounded-md bg-opacity-50 duration-500 w-full gap-5 h-24 ${isNavbarAtTop ? '' : 'bg-secondary-700'}`}
+  class={`flex justify-center md:justify-around items-center fixed z-40  rounded-md bg-opacity-50 duration-500 w-full gap-5 h-24 ${isNavbarAtTop ? '' : 'md:bg-secondary-700'}`}
 >
   <div class="w-4/5 flex justify-between items-center">
     <div
-      class="font-normal flex flex-nowrap items-center justify-center lg:py-2 text-gray-300"
+      class="hidden font-normal md:flex flex-nowrap items-center justify-center lg:py-2 text-gray-300"
     >
       <a href="/"
         ><span class=" font-bold text-2xl md:text-5xl">Hannes Scheibelauer</span
@@ -67,38 +67,6 @@
       >
         Kontakt
       </a>
-    </div>
-
-    <div class="md:hidden flex flex-nowrap">
-      <button on:click={() => (isMenuOpen = !isMenuOpen)}>
-        <Menu size={24} /></button
-      >
-      {#if isMenuOpen}
-        <div
-          transition:fade={{ duration: 200 }}
-          class="flex-nowrap h-screen w-screen fixed top-0 left-0 bg-secondary-700 flex flex-col items-center justify-center"
-        >
-          <div
-            class="flex flex-col justify-center w-full h-full p-4"
-            in:fly={{ y: 20, duration: 300, delay: 200 }}
-            out:fly={{ y: -20, duration: 200 }}
-          >
-            <div class="w-full justify-end flex pb-2">
-              <button on:click={() => (isMenuOpen = false)}>
-                <X size={32} /></button
-              >
-            </div>
-            <NavComponentMobile href="/#offerings" {closeNav}
-              >Leistungen</NavComponentMobile
-            >
-            <NavComponentMobile href="/#Career" {closeNav}
-              >Karriere</NavComponentMobile
-            >
-            <NavComponentMobile href="/#qa" {closeNav}>Q&A</NavComponentMobile>
-            <div class="flex-1"></div>
-          </div>
-        </div>
-      {/if}
     </div>
   </div>
 </nav>

@@ -10,7 +10,7 @@
   ]
 </script>
 
-<div class="lg:pt-10">
+<div class="lg:pt-10 w-full flex justify-center items-center">
   {#each quotes as quote}
     <Quote {quote}></Quote>
   {/each}

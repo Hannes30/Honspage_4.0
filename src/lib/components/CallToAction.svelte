@@ -9,7 +9,7 @@
   function openContactModal() {
     showModalStore.set(true)
     document.body.style.overflow = 'hidden'
-  }
+  } 
   onMount(() => {
     inView('.CTAWraper', (info) => {
       animate(

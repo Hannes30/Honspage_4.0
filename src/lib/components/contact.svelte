@@ -1,6 +1,9 @@
 <script>
   import { MapPin, Mail, PhoneIcon, Instagram } from 'lucide-svelte'
   import HannesScheibelauerCrazy from '$lib/img/HannesLaptopStart.webp?enhanced'
+  import { onMount, tick } from 'svelte'
+  import { inView, animate } from 'motion'
+
   const email = 'kontakt@hannes-scheibelauer.at'
   const subject = 'Interesse an einer Zusammenarbeit'
 
@@ -13,16 +16,35 @@ Viele Grüße,
 [Ihr Name]`
 
   const mailto = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+
+  onMount(async () => {
+    await tick()
+    inView('.contactText', (info) => {
+      animate(
+        info.target,
+        { opacity: [0, 1], transform: ['translateX(-80px)', 'translateX(0)'] },
+        { duration: 0.7 },
+      )
+    })
+    inView('.contactImage', (info) => {
+      animate(
+        info.target,
+        { opacity: [0, 1], transform: ['translateX(80px)', 'translateX(0)'] },
+        { delay: 0.2, duration: 0.5 },
+      )
+    })
+  })
 </script>
 
 <div class="w-full flex justify-center items-center mt-20" id="contact">
   <div
-    class="flex justify-center items-center lg:ml-16 ml-10 lg:mr-0 mr-10 lg:flex-nowrap flex-wrap"
+    class="flex justify-center items-end lg:ml-16 ml-10 lg:mr-0 mr-10 lg:flex-nowrap flex-wrap"
   >
     <div
-      class="flex-2 flex flex-col gap-10 pb-10 lg:items-start lg:text-left text-left"
+      class="flex-2 flex flex-col gap-10 pb-10 lg:items-start lg:text-left text-left contactText"
+      style="opacity:0"
     >
-      <h3 class="lg:text-5xl sm:text-4xl text-3xl font-bold lg:mb-6">
+      <h3 class="xl:text-5xl sm:text-4xl text-3xl font-bold lg:mb-6">
         Lass uns ein Projekt Starten!
       </h3>
       <div
@@ -65,12 +87,12 @@ Viele Grüße,
         </div> -->
       </div>
     </div>
-    <div class=" h-full lg:w-1/3">
+    <div class="h-full lg:w-1/3 contactImage" style="opacity:0">
       <enhanced:img
         src={HannesScheibelauerCrazy}
         alt="Hannes Scheibelauer Portrait photo"
         style="height: 100%; object-fit: contain; max-height: 500px;"
-        class=" rounded-lg"
+        class="rounded-lg"
       />
     </div>
   </div>
