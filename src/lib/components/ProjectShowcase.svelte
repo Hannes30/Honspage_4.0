@@ -2,6 +2,7 @@
   import Banner from '$lib/components/Banner.svelte'
   import projects from '$lib/projects.json'
   import { onMount } from 'svelte'
+  import { inView, animate } from 'motion'
 
   function chunk(array, size) {
     const result = []
@@ -17,7 +18,7 @@
         info.target,
         {
           opacity: [0, 1],
-          transform: ['translateY(100px)', 'translateY(0)'],
+          transform: ['translateY(-50px)', 'translateY(0)'],
         },
         { delay: 0.3, duration: 0.5 },
       )
