@@ -79,11 +79,11 @@
     <h3 class="text-center text-xl lg:text-3xl font-black pb-6 ido">
       ich mache ...
     </h3>
-    <h2
-      class="text-center text-5xl lg:text-8xl font-medium mt-4 text-primary-200 idoTitle"
+    <span
+      class="text-center text-5xl lg:text-8xl font-medium mt-4 text-primary-200 idoTitle w-full justify-center flex"
     >
       {offers[activeOffer].title}
-    </h2>
+    </span>
     <div
       bind:this={textContainer}
       class="text-center md:text-2xl text-xl font-semibold text-gray-300 mt-3 idoText"

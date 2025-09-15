@@ -1,31 +1,13 @@
 <script>
   import NavComponent from './NavComponent.svelte'
   import { onMount } from 'svelte'
-  import showModalStore from '$lib/store/modalStore'
 
   let isNavbarAtTop = true
-  let isMenuOpen = false
   onMount(() => {
     window.addEventListener('scroll', handleScroll)
 
     return () => {
       window.removeEventListener('scroll', handleScroll)
-    }
-  })
-
-  let unsubscribe
-  onMount(() => {
-    if (typeof document !== 'undefined') {
-      unsubscribe = showModalStore.subscribe((value) => {
-        document.body.style.overflow = value ? 'hidden' : 'auto'
-      })
-    }
-    window.addEventListener('scroll', handleScroll)
-    return () => {
-      window.removeEventListener('scroll', handleScroll)
-      if (unsubscribe) {
-        unsubscribe()
-      }
     }
   })
 

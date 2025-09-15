@@ -23,18 +23,11 @@
       <p class="py-2">Hannes Scheibelauer</p>
       <p class="py-2">kontakt@hannes-scheibelauer.at</p>
       <p class="py-2">0670 2018717</p>
+      <a href="/impressum" class="py-2">Impressum</a>
     </div>
     <div class="text-l sm:leading-loose sm:text-xl leading-7"></div>
   </div>
 </footer>
 
 <style>
-  a:hover {
-    background-color: #c2ffea;
-  }
-  a {
-    padding: 5px;
-    border-radius: 6px;
-    transition: background-color 0.2s;
-  }
 </style>

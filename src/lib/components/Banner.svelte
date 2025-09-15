@@ -49,7 +49,9 @@
       <div
         class="absolute bottom-2 lg:-bottom-28 rounded-md bg-gradient-to-tr from-secondary-700/70 to-secondary-700/30 bg-opacity-70 p-2 left-2 group-hover:transform lg:group-hover:-translate-y-32 transition duration-500 max-w-60 sm:max-w-full lg:p-4"
       >
-        <h2 class="lg:text-3xl sm:text-2xl text-lg text-primary-100">{name}</h2>
+        <span class="lg:text-3xl sm:text-2xl text-lg text-primary-100"
+          >{name}</span
+        >
         <p
           class="text-primary-100/70 font-light text-sm sm:text-lg lg:text-xl text-ellipsis line-clamp-1"
         >

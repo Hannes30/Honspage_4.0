@@ -1,15 +1,8 @@
 <script>
   import { onMount } from 'svelte'
-  import showModalStore from '$lib/store/modalStore'
   export let id
   import { animate, inView } from 'motion'
 
-  let isVisible = false
-
-  function openContactModal() {
-    showModalStore.set(true)
-    document.body.style.overflow = 'hidden'
-  } 
   onMount(() => {
     inView('.CTAWraper', (info) => {
       animate(
