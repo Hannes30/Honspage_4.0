@@ -1,11 +1,7 @@
 <script>
   import NavComponent from './NavComponent.svelte'
   import { onMount } from 'svelte'
-  import ContactForm from '$lib/components/ContactForm.svelte'
   import showModalStore from '$lib/store/modalStore'
-  import NavComponentMobile from '$lib/components/NavComponentMobile.svelte'
-  import { Menu, X } from 'lucide-svelte'
-  import { fade, fly } from 'svelte/transition'
 
   let isNavbarAtTop = true
   let isMenuOpen = false

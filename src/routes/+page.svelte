@@ -2,12 +2,9 @@
   import Nav from '$lib/components/Nav.svelte'
   import LandingScreen from '$lib/components/LandingScreen.svelte'
   import CallToAction from '../lib/components/CallToAction.svelte'
-  import Questions from '../lib/components/Questions.svelte'
-  import Wave from '../lib/components/Wave.svelte'
+
   import FirstCtaText from '../lib/components/FirstCTAText.svelte'
   import MyOffersSection from '../lib/components/MyOffersSection.svelte'
-  import HowIdDoItSection from '../lib/components/HowIdDoItSection.svelte'
-  import Career from '../lib/components/Career.svelte'
   import Quotes from '../lib/components/quotes.svelte'
   import ProjectShowcase from '../lib/components/ProjectShowcase.svelte'
   import Contact from '../lib/components/contact.svelte'
