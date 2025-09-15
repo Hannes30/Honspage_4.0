@@ -45,7 +45,7 @@ Viele Grüße,
       style="opacity:0"
     >
       <h3 class="xl:text-5xl sm:text-4xl text-3xl font-bold lg:mb-6">
-        Lass uns ein Projekt Starten!
+        Lass uns ein Projekt starten!
       </h3>
       <div
         class="flex flex-col gap-10 lg:justify-normal justify-center items-start w-max"
