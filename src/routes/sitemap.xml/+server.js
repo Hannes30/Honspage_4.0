@@ -12,7 +12,6 @@ export async function GET() {
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-  <!-- Add more URLs as needed -->
 </urlset>
 `.trim(),
     { headers: { 'Content-Type': 'application/xml' } },

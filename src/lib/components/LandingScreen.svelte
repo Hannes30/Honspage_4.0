@@ -17,6 +17,7 @@
     </div>
     <div class=" md:h-full relative md:w-1/2 w-3/4">
       <enhanced:img
+        loading="lazy"
         src={HannesScheibelauerDeckweiss}
         alt="Hannes Scheibelauer Potrait photo"
       >

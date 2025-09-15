@@ -3,18 +3,18 @@
     "title": "Christina Zehetner",
     "url": "https://www.christinazehetner.at/",
     "description": "Portfolio Website",
-    "cover": "/img/projects/ChrZeh.png"
+    "cover": "/img/projects/ChrZeh.webp"
   },
   {
     "title": "Scheichelbauer Hof",
     "url": "https://scheichelbauer-hof.at/",
     "description": "Homepage, Online Produktkatalog",
-    "cover": "/img/projects/SchBau.png"
+    "cover": "/img/projects/SchBau.webp"
   },
   {
     "title": "Sportvereine VHP",
     "url": "https://www.sportvereine-vhp.at/",
     "description": "Homepage für die Sporvereine der Verbund AG",
-    "cover": "/img/projects/Vhp.png"
+    "cover": "/img/projects/Vhp.webp"
   }
 ]

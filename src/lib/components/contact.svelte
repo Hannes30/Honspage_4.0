@@ -89,6 +89,7 @@ Viele Grüße,
     </div>
     <div class="h-full lg:w-1/3 contactImage" style="opacity:0">
       <enhanced:img
+        loading="lazy"
         src={HannesScheibelauerCrazy}
         alt="Hannes Scheibelauer Portrait photo"
         style="height: 100%; object-fit: contain; max-height: 500px;"

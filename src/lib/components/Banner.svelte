@@ -37,6 +37,7 @@
   <a class=" wrapper flex justify-center" href={route}>
     <div class="relative group overflow-hidden object-cover">
       <img
+        loading="lazy"
         src={image}
         alt={'Banner Image of ' + name}
         class="rounded-md object-cover"

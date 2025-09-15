@@ -18,11 +18,11 @@
 </script>
 
 <div class=" p-10 pt-20 flex flex-wrap justify-center gap-10 mb-10 CTAWraper">
-  <span
+  <h2
     class="w-full text-center lg:text-7xl font-medium text-white text-5xl CTAText"
   >
     Ein Erstgespräch ist kostenfrei
-  </span>
+  </h2>
   <a
     href="/#contact"
     class="button bg-primary-400 rounded-md text-secondary-700 px-10 py-4 lg:py-6 lg:px-15 text-2xl lg:text-4xl font-bold m-10 mt-3 relative top-0 hover:-top-1 duration-300 CTAButton"
