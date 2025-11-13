@@ -70,7 +70,7 @@ Viele Grüße,
         <div class="flex items-center whitespace-nowrap gap-2 sm:gap-6">
           <PhoneIcon class="inline w-8 h-8 lg:w-10 lg:h-10" />
           <a
-            href="tel:+4369912345678"
+            href="tel:+43 670 2018717"
             class="font-semibold text-lg sm:text-xl lg:text-3xl underline hover:text-primary-400 duration-300 whitespace-nowrap xl:text-4xl text-gray-100"
             >0670 2018717</a
           >
