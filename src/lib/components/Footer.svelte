@@ -1,5 +1,16 @@
 <script>
   import { onMount } from 'svelte'
+  onMount(() => {
+    window._mfq = window._mfq || []
+    ;(function () {
+      var mf = document.createElement('script')
+      mf.type = 'text/javascript'
+      mf.defer = true
+      mf.src =
+        '//cdn.mouseflow.com/projects/776c0027-44a5-48e7-8b19-a86e2b9fb735.js'
+      document.getElementsByTagName('head')[0].appendChild(mf)
+    })()
+  })
 </script>
 
 <footer class=" bg-primary-400/50 text-secondary-700 p-5 relative">
