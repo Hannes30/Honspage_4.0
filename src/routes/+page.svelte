@@ -25,10 +25,11 @@
     <div class=" bg-secondary-700 overflow-x-hidden h-max">
       <FirstCtaText></FirstCtaText>
       <CallToAction id="offerings"></CallToAction>
-      <MyOffersSection></MyOffersSection>
+
       <ProjectShowcase></ProjectShowcase>
 
       <Quotes></Quotes>
+      <MyOffersSection></MyOffersSection>
       <Contact></Contact>
     </div>
   </div>
