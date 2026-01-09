@@ -29,7 +29,7 @@
 </script>
 
 <div
-  class="w-full flex justify-center items-center flex-wrap gap-2 mb-14 lg:mb-20 lg:py-10"
+  class="w-full flex justify-center items-center flex-wrap gap-2 mb-14 lg:mb-20 lg:py-10 h-full"
   id="projects"
 >
   <h3
