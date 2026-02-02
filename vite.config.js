@@ -4,4 +4,8 @@ import { enhancedImages } from "@sveltejs/enhanced-img";
 
 export default defineConfig({
   plugins: [sveltekit(), enhancedImages()],
+  server: {
+	host:true,
+	port: 5171
+	},
 });

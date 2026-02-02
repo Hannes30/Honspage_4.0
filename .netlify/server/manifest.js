@@ -7,20 +7,19 @@ function __memo(fn) {
 return {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set(["favicon.png","favicon2.png","Logo.png"]),
-	mimeTypes: {".png":"image/png"},
+	assets: new Set(["BingSiteAuth.xml","Logo.png","favicon.png","img/projects/ChrZeh.webp","img/projects/Musikschule.webp","img/projects/SchBau.webp","img/projects/Vhp.webp","robots.txt","sitemap.xml"]),
+	mimeTypes: {".xml":"text/xml",".png":"image/png",".webp":"image/webp",".txt":"text/plain"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.mdZouQRw.js","app":"_app/immutable/entry/app.hXGIBRf3.js","imports":["_app/immutable/entry/start.mdZouQRw.js","_app/immutable/chunks/scheduler.9rETXCuu.js","_app/immutable/chunks/index.SNfDup5C.js","_app/immutable/entry/app.hXGIBRf3.js","_app/immutable/chunks/preload-helper.0HuHagjb.js","_app/immutable/chunks/scheduler.9rETXCuu.js","_app/immutable/chunks/index.GzZsvtwO.js"],"stylesheets":[],"fonts":[],"uses_env_dynamic_public":false},
+		client: {start:"_app/immutable/entry/start.CelU7_KL.js",app:"_app/immutable/entry/app.B9hSKOC7.js",imports:["_app/immutable/entry/start.CelU7_KL.js","_app/immutable/chunks/D_p0Uydz.js","_app/immutable/entry/app.B9hSKOC7.js","_app/immutable/chunks/D_p0Uydz.js","_app/immutable/chunks/IHki7fMi.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),
 			__memo(() => import('./nodes/2.js')),
-			__memo(() => import('./nodes/3.js')),
-			__memo(() => import('./nodes/4.js')),
-			__memo(() => import('./nodes/5.js')),
-			__memo(() => import('./nodes/6.js')),
-			__memo(() => import('./nodes/7.js'))
+			__memo(() => import('./nodes/3.js'))
 		],
+		remotes: {
+			
+		},
 		routes: [
 			{
 				id: "/",
@@ -37,34 +36,6 @@ return {
 				endpoint: null
 			},
 			{
-				id: "/projects",
-				pattern: /^\/projects\/?$/,
-				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 4 },
-				endpoint: null
-			},
-			{
-				id: "/projects/[project]",
-				pattern: /^\/projects\/([^/]+?)\/?$/,
-				params: [{"name":"project","optional":false,"rest":false,"chained":false}],
-				page: { layouts: [0,], errors: [1,], leaf: 5 },
-				endpoint: null
-			},
-			{
-				id: "/services",
-				pattern: /^\/services\/?$/,
-				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 6 },
-				endpoint: null
-			},
-			{
-				id: "/services/[service]",
-				pattern: /^\/services\/([^/]+?)\/?$/,
-				params: [{"name":"service","optional":false,"rest":false,"chained":false}],
-				page: { layouts: [0,], errors: [1,], leaf: 7 },
-				endpoint: null
-			},
-			{
 				id: "/sitemap.xml",
 				pattern: /^\/sitemap\.xml\/?$/,
 				params: [],
@@ -72,6 +43,7 @@ return {
 				endpoint: __memo(() => import('./entries/endpoints/sitemap.xml/_server.js'))
 			}
 		],
+		prerendered_routes: new Set([]),
 		matchers: async () => {
 			
 			return {  };

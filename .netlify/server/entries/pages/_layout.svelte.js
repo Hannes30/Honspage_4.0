@@ -1,31 +1,15 @@
-import { c as create_ssr_component, a as add_attribute, v as validate_component } from "../../chunks/ssr.js";
-const logo = "/_app/immutable/assets/Logo_without_text.74l-q47g.png";
-const css$1 = {
-  code: "a.svelte-se08wc:hover{background-color:#c2ffea}a.svelte-se08wc{padding:5px;border-radius:6px;transition:background-color 0.2s}",
-  map: null
-};
+import { c as create_ssr_component, v as validate_component, b as add_attribute } from "../../chunks/ssr.js";
+const logo = "/_app/immutable/assets/Logo_without_text.CB_lF50Q.png";
 const Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  $$result.css.add(css$1);
-  return `<footer class="mt-20 bg-primary-400 text-secondary p-5" data-svelte-h="svelte-1rf1242"><div class="text-2xl font-medium text-center sm:text-3xl">© Hannes Scheibelauer</div> <div class="flex justify-around"><div class="text-l sm:leading-loose sm:text-xl leading-7"><div class="text-3xl font-medium leading-tight">Contact </div><p class="py-2">Hannes Scheibelauer</p> <p class="py-2">kontakt@hannes-scheibelauer.at</p> <p class="py-2">0670 2018717</p></div> <div class="text-l sm:leading-loose sm:text-xl leading-7"><div class="text-3xl font-medium leading-tight p-1">Pages</div> <p class="text-2xl opacity-80 py-2"><a href="/" class="svelte-se08wc">Home</a></p> <p class="text-2xl opacity-80 py-2"><a href="/projects" class="svelte-se08wc">Projekte</a></p> <p class="text-2xl opacity-80 py-2"><a href="/services" class="svelte-se08wc">Leistungen</a></p> <p class="text-2xl opacity-80 py-2"><a href="/impressum" class="svelte-se08wc">Impressum</a></p></div></div> </footer>`;
+  return `<footer class="bg-primary-400/50 text-secondary-700 p-5 relative" data-svelte-h="svelte-47li87"><div class="text-2xl font-medium text-center sm:text-3xl">© Hannes Scheibelauer</div> <div class="flex justify-around"><div class="text-l sm:leading-loose sm:text-xl leading-7"><div class="text-3xl font-medium leading-tight">Contact</div> <p class="py-2">Hannes Scheibelauer</p> <p class="py-2">kontakt@hannes-scheibelauer.at</p> <p class="py-2">0670 2018717</p> <a href="/impressum" class="py-2">Impressum</a></div> <div class="text-l sm:leading-loose sm:text-xl leading-7"></div></div> </footer>`;
 });
 const css = {
-  code: ".body.svelte-1p66dub{min-height:100vh;color:white;background:linear-gradient(90deg,#022034,#054D4D)}",
-  map: null
+  code: ".body.svelte-xh3kih{min-height:100vh;color:white;background:linear-gradient(90deg, #022034, #054d4d)}",
+  map: `{"version":3,"file":"+layout.svelte","sources":["+layout.svelte"],"sourcesContent":["<script>\\n  import '../style.css'\\n  import logo from '$lib/img/Logo_without_text.png'\\n\\n  import Footer from '$lib/components/Footer.svelte'\\n\\n  let showModal = false\\n<\/script>\\n\\n<svelte:head>\\n  <link rel=\\"icon\\" type=\\"image/x-icon\\" href={logo} />\\n\\n  <meta\\n    name=\\"description\\"\\n    content=\\"Portfolio Seite von Hannes Scheibelauer, ein Website Entwickler aus Niederösterreich\\"\\n  />\\n  <meta\\n    name=\\"keywords\\"\\n    content=\\"Website Erstellen, Webseite kaufen, Homepage erstellen, Webdesign Mostviertel, Wieselburg Webentwicklung, Responsive Webseiten, Niederösterreich Webdesign, Online-Präsenz gestalten, Lokale Unternehmenswebseiten, Webentwickler Dienstleistungen, Grafikdesign für Webseiten, Nutzerfreundliches Design, Mobile-optimierte Seiten, Online-Marketing, Social-Media-Integration,Webseiten-Wartung\\"\\n  />\\n\\n  <meta name=\\"robots\\" content=\\"index, follow\\" />\\n  <meta\\n    property=\\"og:title\\"\\n    content=\\"Portfolio Website von Hannes Scheibelauer\\"\\n  />\\n  <meta\\n    property=\\"og:description\\"\\n    content=\\"Hannes Scheibelauer ist ein Web Developer aus Niederösterreich. Er erstellt Websites und Web Apps für Firmen und Privatpersonen.\\"\\n  />\\n  <meta property=\\"og:image\\" content=\\"https://hannes-scheibelauer.at/logo.png\\" />\\n</svelte:head>\\n<div class=\\"body bg-black\\">\\n  <div><slot /></div>\\n  <Footer></Footer>\\n</div>\\n\\n<style>\\n  .body {\\n    min-height: 100vh;\\n    color: white;\\n    background: linear-gradient(90deg, #022034, #054d4d);\\n  }\\n</style>\\n"],"names":[],"mappings":"AAsCE,mBAAM,CACJ,UAAU,CAAE,KAAK,CACjB,KAAK,CAAE,KAAK,CACZ,UAAU,CAAE,gBAAgB,KAAK,CAAC,CAAC,OAAO,CAAC,CAAC,OAAO,CACrD"}`
 };
 const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `${$$result.head += `<!-- HEAD_svelte-bdk1sy_START --><link rel="icon" type="image/x-icon"${add_attribute("href", logo, 0)}><meta name="description" content="Portfolio Seite von Hannes Scheibelauer, ein Web Developer aus Niederösterreich"><meta name="keywords" content="Website Erstellen, Webseite kaufen, Homepage erstellen, Webdesign Mostviertel, Wieselburg Webentwicklung, Responsive Webseiten, Niederösterreich Webdesign, Online-Präsenz gestalten, Lokale Unternehmenswebseiten, Webentwickler Dienstleistungen, Grafikdesign für Webseiten, Nutzerfreundliches Design, Mobile-optimierte Seiten, Online-Marketing, Social-Media-Integration,Webseiten-Wartung"><meta name="robots" content="index, follow"><meta property="og:title" content="Portfolio Website von Hannes Scheibelauer"><meta property="og:description" content="Hannes Scheibelauer ist ein Web Developer aus Niederösterreich. Er erstellt Websites und Web Apps für Firmen und Privatpersonen."><meta property="og:image" content="https://hannes-scheibelauer.at/logo.png"><script async${add_attribute("src", `https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}`, 0)}><\/script><script${add_attribute(
-    "dangerouslysetinnerhtml",
-    {
-      __html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '${process.env.GA_TRACKING_ID}');
-      `
-    },
-    0
-  )}><\/script><!-- HEAD_svelte-bdk1sy_END -->`, ""} <div class="body bg-black svelte-1p66dub">${``} <div>${slots.default ? slots.default({}) : ``}</div> ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})} </div>`;
+  return `${$$result.head += `<!-- HEAD_svelte-1bt5p2_START --><link rel="icon" type="image/x-icon"${add_attribute("href", logo, 0)}><meta name="description" content="Portfolio Seite von Hannes Scheibelauer, ein Website Entwickler aus Niederösterreich"><meta name="keywords" content="Website Erstellen, Webseite kaufen, Homepage erstellen, Webdesign Mostviertel, Wieselburg Webentwicklung, Responsive Webseiten, Niederösterreich Webdesign, Online-Präsenz gestalten, Lokale Unternehmenswebseiten, Webentwickler Dienstleistungen, Grafikdesign für Webseiten, Nutzerfreundliches Design, Mobile-optimierte Seiten, Online-Marketing, Social-Media-Integration,Webseiten-Wartung"><meta name="robots" content="index, follow"><meta property="og:title" content="Portfolio Website von Hannes Scheibelauer"><meta property="og:description" content="Hannes Scheibelauer ist ein Web Developer aus Niederösterreich. Er erstellt Websites und Web Apps für Firmen und Privatpersonen."><meta property="og:image" content="https://hannes-scheibelauer.at/logo.png"><!-- HEAD_svelte-1bt5p2_END -->`, ""} <div class="body bg-black svelte-xh3kih"><div>${slots.default ? slots.default({}) : ``}</div> ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})} </div>`;
 });
 export {
   Layout as default
