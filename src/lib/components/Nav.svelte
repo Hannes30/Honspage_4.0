@@ -27,9 +27,13 @@
     <div
       class="hidden font-normal md:flex flex-nowrap items-center justify-center lg:py-2 text-gray-300"
     >
-      <a href="/"
-        ><span class=" font-bold text-2xl md:text-5xl">Hannes Scheibelauer</span
-        >
+      <a href="/" class="flex items-center gap-2">
+        <img
+          src="/src/lib/img/Logo_without_text.png"
+          alt="Logo"
+          class="h-8 md:h-12 lg:h-16"
+        />
+        <span class=" font-bold text-2xl md:text-5xl">Hannes Scheibelauer</span>
       </a>
     </div>
     <div class="md:flex hidden flex-nowrap">
