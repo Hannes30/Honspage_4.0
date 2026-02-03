@@ -1,4 +1,0 @@
-flyin effects
-Career Timeline
-HowIdoItSection
-add padding bottom for secondary color div
