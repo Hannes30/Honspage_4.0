@@ -23,7 +23,7 @@ jobs:
             export NVM_DIR="$HOME/.nvm"
             [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
-            cd /var/www/honspage
+            cd /root/Honspage_4.0
             git pull
             pnpm install --frozen-lockfile
             pnpm build
