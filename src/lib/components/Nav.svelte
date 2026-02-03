@@ -1,6 +1,7 @@
 <script>
   import NavComponent from './NavComponent.svelte'
   import { onMount } from 'svelte'
+  import Logo from '$lib/img/Logo_without_text.png'
 
   let isNavbarAtTop = true
   onMount(() => {
@@ -28,11 +29,7 @@
       class="hidden font-normal md:flex flex-nowrap items-center justify-center lg:py-2 text-gray-300"
     >
       <a href="/" class="flex items-center gap-2">
-        <img
-          src="/src/lib/img/Logo_without_text.png"
-          alt="Logo"
-          class="h-8 md:h-12 lg:h-16"
-        />
+        <img src={Logo} alt="Logo" class="h-8 md:h-12 lg:h-16" />
         <span class=" font-bold text-2xl md:text-5xl">Hannes Scheibelauer</span>
       </a>
     </div>
