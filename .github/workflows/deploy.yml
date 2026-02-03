@@ -18,12 +18,10 @@ jobs:
           username: root
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            set -e
-
-            cd /root/Honspage_4.0
-            git pull
-
-            /root/.local/share/pnpm/pnpm install --frozen-lockfile
-            /root/.local/share/pnpm/pnpm build
-
-            /root/.local/share/pnpm/pnpm exec pm2 restart Honspage-pm2
+            bash -lc '
+              cd /root/Honspage_4.0
+              git pull
+              pnpm install --frozen-lockfile
+              pnpm build
+              pm2 restart Honspage-pm2
+            '
