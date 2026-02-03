@@ -20,11 +20,10 @@ jobs:
           script: |
             set -e
 
-            export NVM_DIR="$HOME/.nvm"
-            [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-
             cd /root/Honspage_4.0
             git pull
-            pnpm install --frozen-lockfile
-            pnpm build
-            pm2 restart Honspage-pm2
+
+            /root/.local/share/pnpm/pnpm install --frozen-lockfile
+            /root/.local/share/pnpm/pnpm build
+
+            /root/.local/share/pnpm/pnpm exec pm2 restart Honspage-pm2
